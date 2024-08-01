@@ -1,0 +1,31 @@
+.wrapper {
+  height: calc(100% - 180px);
+  padding-top: calc(var(--mantine-spacing-xs) * 2);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  min-height: rem(650px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    img {
+      width: 80%;
+    }
+  }
+}
+
+.title {
+  margin-bottom: calc(var(--mantine-spacing-xs) * 1.5);
+}
+
+.form {
+  background-color: var(--mantine-color-white);
+  padding: var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-sm);
+}

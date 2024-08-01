@@ -1,0 +1,6 @@
+.premium {
+  border-radius: var(--mantine-radius-xs);
+  padding: var(--mantine-spacing-xs);
+  display: inline-flex;
+  align-items: center;
+}

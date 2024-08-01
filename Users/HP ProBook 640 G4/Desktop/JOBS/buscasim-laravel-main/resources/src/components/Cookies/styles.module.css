@@ -1,0 +1,32 @@
+/* styles.module.css */
+
+/* Adicionado !important para sobrescrever os estilos do Mantine e garantir que os estilos personalizados sejam aplicados corretamente */
+
+.cookieConsent {
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 1000 !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  padding: 16px !important;
+  border-radius: 8px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  max-width: 90% !important; /* Para evitar que o aviso de cookies ocupe toda a largura da tela em dispositivos menores */
+}
+
+.cookieButton {
+  margin-left: 16px !important;
+  background-color: #f0a500 !important;
+  color: white !important;
+  padding: 8px 16px !important; /* Ajuste o padding conforme necessário */
+  min-width: 80px !important; /* Ajuste a largura mínima conforme necessário */
+  text-align: center !important;
+}
+
+.cookieButton:hover {
+  background-color: #cc8500 !important;
+}

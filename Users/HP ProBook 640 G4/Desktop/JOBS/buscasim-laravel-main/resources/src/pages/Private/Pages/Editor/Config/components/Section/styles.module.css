@@ -1,0 +1,31 @@
+.section:not(.section .section) {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .section:not(.section .section) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.section:not(.section .section) .section-inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 80%;
+    margin-left: 0;
+    font-size: rem(34px);
+    line-height: 1.15;
+  }
+}

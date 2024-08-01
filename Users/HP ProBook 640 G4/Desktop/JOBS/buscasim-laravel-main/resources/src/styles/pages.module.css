@@ -1,0 +1,6 @@
+.wrapper {
+  height: calc(100% - 180px);
+  padding-top: calc(var(--mantine-spacing-xs) * 2);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  min-height: rem(650px);
+}

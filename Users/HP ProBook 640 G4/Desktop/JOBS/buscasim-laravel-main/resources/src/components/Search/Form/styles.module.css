@@ -1,0 +1,33 @@
+.controls {
+  display: flex;
+  margin-top: var(--mantine-spacing-xl);
+}
+.inputWrapper {
+  width: 100%;
+  max-width: rem(500px);
+  flex: 1;
+}
+.input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  height: rem(64px) !important;
+  font-size: rem(24px) !important;
+  text-transform: uppercase;
+  @media (max-width: $mantine-breakpoint-md) {
+    height: rem(48px) !important;
+    font-size: rem(18px) !important;
+    margin-top: -53px;
+  }
+}
+.control {
+  height: rem(64px) !important;
+  font-size: rem(20px) !important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  @media (max-width: $mantine-breakpoint-md) {
+    height: rem(48px) !important;
+    font-size: rem(18px) !important;
+  }
+}
+

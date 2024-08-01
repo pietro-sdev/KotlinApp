@@ -1,0 +1,34 @@
+.container {
+  padding: var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-sm);
+  margin: var(--mantine-spacing-md) auto;
+}
+.title {
+  color: var(--mantine-color-gray-7);
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+  line-height: 1.05;
+  max-width: rem(500px);
+  font-size: rem(36px);
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 100%;
+    font-size: rem(34px);
+    line-height: 1.15;
+  }
+}
+.accordionItem {
+  background-color: var(--mantine-color-blue-7);
+  color: var(--mantine-color-white);
+}
+.price {
+  font-size: rem(24px);
+  padding: var(--mantine-spacing-sm);
+  font-weight: 700;
+  color: var(--mantine-color-blue-7);
+}
+.searchPrice {
+  font-size: rem(36px);
+  font-weight: 700;
+  text-align: center;
+}

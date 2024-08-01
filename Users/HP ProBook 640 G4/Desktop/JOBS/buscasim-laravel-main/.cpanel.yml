@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/folive83/buscasim.foliveira.dev.br
+    - /bin/cp -r * $DEPLOYPATH

@@ -1,0 +1,9 @@
+.button-group-actions {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.button-group-center .button-group-actions {
+  justify-content: center;
+}

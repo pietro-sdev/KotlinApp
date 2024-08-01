@@ -1,0 +1,215 @@
+.equipeSaude {
+    width: 100%;
+    height: calc(100vh - 4rem);
+    display: flex;
+    direction: row;
+}
+
+.menu {
+    /*Menu em coluna na esquerda da página*/
+
+    width: 20%;
+    height: 100%;
+    padding-top: 5%;
+
+    background: #FFFFFF;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+    backdrop-filter: blur(18px);
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0px;
+}
+
+.menu .linkMenu {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30%;
+    margin-top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+}
+
+.menu .linkMenu:hover {
+    text-decoration: underline;
+
+}
+
+.menu .textoMenu {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.menu .linkMenu .imgMenu {
+    width: 10px;
+    height: 10px;
+}
+
+.tela {
+    width: 100%;
+    background: linear-gradient(57.12deg, rgba(0, 56, 149, 0.9) 25.84%, rgba(235, 183, 12, 0.9) 95.25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.tela .card {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    font-family: 'Mulish';
+    font-style: normal;
+
+}
+
+.tela .card .topoCard {
+    width: 60px;
+    height: 24px;
+    display: flex;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 32px;
+    font-style: normal;
+    font-weight: 800;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.tela .card .textoEquipe {
+    font-weight: bold;
+    padding-top: 24px;
+    padding-left: 32px;
+    font-size: 32px;
+
+
+}
+
+.iconSize {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+button {
+    transition: all 1s ease;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.tela .card .containerSaude {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.tela .card .icone {
+    position: absolute;
+    bottom: 45px;
+    right: 45px;
+}
+
+.boxe {
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .boxe {
+        padding-left: 0;
+        padding-top:4vh ;
+    }
+
+.equipeSaude {
+    width: 100%;
+    height: auto;
+    padding: 0 6.8vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:  10vw;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 120%;
+}
+
+.equipeSaude .VoltarMobile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 3vh 0vw 2vh 0vw;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 2vh; 
+}
+
+.telaMobile {
+    display: flex;
+    width: 86.7vw;
+    padding: 5vh 6.67vw 10vh 6.67vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    border-radius: 6.67vw;
+    background: #E5E9FF;
+    margin-bottom: 20vh;    
+    background-size: 100%;
+}
+
+.telaMobile .textoEquipeMobile {
+    font-weight: bold;
+    padding-top: 0;
+    font-size: 6.67vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telaMobile .containerSaudeMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60vw;
+}
+
+.telaMobile .IconMobile {
+    align-items: center;
+    margin-top: 5vh;
+    opacity: 0.5;
+
+}
+
+.iconSizeMobile {
+    margin-left: 1vw;
+    font-size: 8vw;
+}
+
+
+.telaMobile .iconeMobile {
+    position: absolute;
+}
+}

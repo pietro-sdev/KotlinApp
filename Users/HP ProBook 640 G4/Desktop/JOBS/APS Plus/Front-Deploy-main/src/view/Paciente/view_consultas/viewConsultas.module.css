@@ -1,0 +1,181 @@
+/*
+
+.menu{
+    display: flex;
+    margin-left: 20px;
+    width: 30%;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.linkMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;;
+}
+
+.textoMenu{
+    color: rgb(88, 88, 88);
+    padding-left: 2px;
+} */
+
+.pagina {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.menu {
+    /*Menu em coluna na esquerda da página*/
+    
+    width: 20vw;
+    height: 100vh;
+    padding-top:12vh;
+    
+    background:#FFFFFF;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+    backdrop-filter: blur(18px);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu .linkMenu {
+    display:flex;
+    align-items: flex-start;
+    margin-left:7vw;
+    margin-top:3vh;
+    cursor: pointer;
+}
+
+.menu .textoMenu {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+.imagemBackground {
+    width:80vw;
+    background: linear-gradient(57.12deg, rgba(0, 56, 149, 0.9) 25.84%, rgba(235, 183, 12, 0.9) 95.25%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+}
+
+.tela {
+    width: 75vw;
+    height: 92vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 5vh 5vw;
+
+    border: solid 2px yellow;
+
+    /*Padronização da letra*/
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.linkVoltar {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.linkVoltar .textoMenu{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+.linhaCuidado{
+    display: flex;
+    margin-top: 8vh;
+
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.linhaCuidado .textoCuidado{
+    padding-left: 7px;
+    color: rgb(14, 14, 161);
+}
+
+
+.textoProgresso{
+    margin-top: 4vh;
+    display: flex;
+    font-size:22px;
+    margin-bottom: 2vh;
+
+    text-decoration: underline rgb(218, 218, 20) 3px;
+}
+
+
+.listaConsultas{
+    display: flex;
+    flex-direction: column;
+}
+
+.listaConsultas .consulta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    padding:15px;
+    margin-top: 15px;
+} 
+
+.listaConsultas .informacoesConsulta {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.consulta .consultaVerDetalhes {
+    text-decoration: underline rgb(11, 11, 188) 1.5px;
+    color: rgb(11, 11, 188);
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.consulta .consultaVerDetalhes:hover{
+    text-decoration: underline rgb(6, 6, 80) 1.5px;
+    color: rgb(6, 6, 80);
+}
+
+
+
+.barra{
+    padding: 6px;
+    font-size: 24px;
+    font-weight: 500;
+
+}

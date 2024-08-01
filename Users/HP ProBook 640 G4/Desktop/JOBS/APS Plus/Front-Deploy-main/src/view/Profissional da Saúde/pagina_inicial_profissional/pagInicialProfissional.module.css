@@ -1,0 +1,11 @@
+.dir{
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
+
+.esq{
+    position:absolute;
+    bottom: 0;
+    left:0;
+}
