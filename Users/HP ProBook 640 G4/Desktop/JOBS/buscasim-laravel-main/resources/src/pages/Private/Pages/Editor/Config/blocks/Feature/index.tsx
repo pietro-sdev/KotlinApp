@@ -10,7 +10,7 @@ export const Feature: ComponentConfig<FeaturesProprs> = {
     fields: {
         title: {
           label: "Título",
-          type: "text", // Ajustado para o tipo "text" para representar um título como uma string de texto
+          type: "text",
         },
         description: {
             label: "Descriçao",

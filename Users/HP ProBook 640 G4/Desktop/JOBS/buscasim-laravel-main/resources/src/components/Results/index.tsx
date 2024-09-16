@@ -3,7 +3,8 @@ import { Button } from '@mantine/core';
 import { IconLock } from '@tabler/icons-react';
 
 export interface ResultInfoProps {
-  data?: SearchResult;
+  data: SearchResult;
+  show?: boolean;
   premium?: boolean;
   onScroll?: VoidFunction;
 }
@@ -29,3 +30,5 @@ export function showInfo({
 export * from './LeftInfo';
 export * from './RightInfo';
 export * from './Overview';
+export * from './FreeInfo';
+export * from './PremiumInfo';

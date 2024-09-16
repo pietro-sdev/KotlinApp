@@ -77,7 +77,7 @@ class OrdersController extends Controller
 private function fetchAgregadosPropriaData(string $plate)
 {
     return Http::post('https://api-v2.anycar.com.br/integracao/consultar', [
-        'apiKey' => env('API_KEY_ANYCAR'),
+        'apiKey' => (string) $this->getOption('API_ANYCAR_KEY', ''),
         'tipo' => 'agregados-propria',
         'placa' => $plate,
     ]);
@@ -92,7 +92,7 @@ private function fetchAgregadosPropriaData(string $plate)
     private function fetchPlateData(string $plate)
     {
         return Http::post('https://api-v2.anycar.com.br/integracao/consultar', [
-            'apiKey' => env('API_KEY_ANYCAR'),
+            'apiKey' => (string) $this->getOption('API_ANYCAR_KEY', ''),
             'tipo' => 'estadual',
             'placa' => $plate,
         ]);
@@ -107,7 +107,7 @@ private function fetchAgregadosPropriaData(string $plate)
     private function fetchOwnerData(string $plate)
     {
         return Http::post('https://api-v2.anycar.com.br/integracao/consultar', [
-            'apiKey' => env('API_KEY_ANYCAR'),
+            'apiKey' => (string) $this->getOption('API_ANYCAR_KEY', ''),
             'tipo' => 'estadual',
             'placa' => $plate,
         ]);

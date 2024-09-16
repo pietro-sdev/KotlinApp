@@ -27,7 +27,7 @@ export const ThankYou: ComponentConfig<ThankYouProps> = {
         type:'text',
       },
       subtitle:{
-        label:'Sub title',
+        label:'Subtitle',
         type:'text',
       },
       description:{
@@ -35,7 +35,7 @@ export const ThankYou: ComponentConfig<ThankYouProps> = {
         type:'textarea',
       },
       buttonText:{
-        label:'Btn Text',
+        label:'Texto botão',
         type:'text',
       }
     },
@@ -55,6 +55,7 @@ export const ThankYou: ComponentConfig<ThankYouProps> = {
           subtitle={props.subtitle}
           description={props.description}
           background={props.background}
+          buttonText={props.buttonText}
         />
     );
   },

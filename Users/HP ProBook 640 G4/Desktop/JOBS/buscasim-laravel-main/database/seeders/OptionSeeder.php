@@ -37,6 +37,10 @@ class OptionSeeder extends Seeder
         'key'   => 'GOOGLE_TAG_ID',
         'value' => '',
       ],
+      [
+        'key'   => 'API_ANYCAR_KEY',
+        'value' => '',
+      ],
     ]);
   }
 }

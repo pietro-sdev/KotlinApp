@@ -86,7 +86,18 @@ Após a instalação das dependências do Laravel, é necessário gerar uma chav
 
 `php artisan key:generate`
 
+
+Agora, é necessário realizar a migração das tabelas:
+
+`php artisan migrate`
+
+Em seguida, importe e execute os seeders, incluindo os seeders das configurações das páginas, caso contrário, você verá um erro 404 em todas as páginas, pois elas são renderizadas dinamicamente atraves do [puckeditor](https://puckeditor.com/).
+
+`php artisan db:seed`
+`php artisan db:seed --class=PageSeeder`
+
 Agora, é necessário realizar a instalação das dependências do frontend, para esse projeto desenvolvido em [React JS v18](https://react.dev/) e com a biblioteca de componentes [Mantine v7](https://mantine.dev/). Ainda no terminal, execute o seguinte comando:
+
 
 `npm install`
 

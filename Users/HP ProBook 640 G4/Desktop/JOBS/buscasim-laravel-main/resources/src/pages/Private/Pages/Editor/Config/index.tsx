@@ -14,9 +14,9 @@ import { Table, TableProps } from './blocks/Table';
 import { Contact, ContactProps } from './blocks/Contact';
 import { ThankYou, ThankYouProps } from './blocks/ThankYou';
 import { Results, ResultsProps } from './blocks/Results';
+import { Search , SearchProps } from "./blocks/Forms/Search";
 
 
-// import Root from "./root";
 
 
 type Props = {
@@ -35,6 +35,7 @@ type Props = {
   Contact:ContactProps;
   ThankYou:ThankYouProps;
   Results:ResultsProps;
+  Search:SearchProps;
 };
 
 export type RootProps = {
@@ -67,11 +68,10 @@ export const conf: UserConfig = {
       }
     },
     defaultProps: {
-      title: "My Page",
-      slug:'ola',
-      description:'ola'
+      title: "Titulo",
+      slug:'/Slug',
+      description:'Descrição'
     },
-    // render: Root,
   },
 
   categories: {
@@ -86,6 +86,9 @@ export const conf: UserConfig = {
     },
     Seções: {
       components: ["Hero","Feature","Contact","Faq","ThankYou","Results"],
+    },
+    Forms: {
+      components: ["Search"],
     }
   },
   components: {
@@ -103,7 +106,8 @@ export const conf: UserConfig = {
     Table,
     List,
     Contact,
-    Results
+    Results,
+    Search,
   },
 };
 

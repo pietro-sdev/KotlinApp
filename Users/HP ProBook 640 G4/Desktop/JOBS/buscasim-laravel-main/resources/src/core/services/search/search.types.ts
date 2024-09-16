@@ -1,6 +1,6 @@
 export interface SearchRequest {
   plate: string;
-  captcha: string;
+  captcha?: string; // Make captcha optional
 }
 
 export interface SearchResult {

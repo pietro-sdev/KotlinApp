@@ -1,10 +1,2684 @@
 {
-  "home": {"root": {"props": {"slug": "/", "title": "Home", "description": "Realize consultas rápidas de placas de veículos e receba informações detalhadas instantaneamente."}}, "zones": {}, "content": [{"type": "Hero", "props": {"id": "Hero-52af81cc-c657-4a0f-bf31-094bb1905eae", "title": "A consulta de placa mais completa da internet.", "bg_image": "", "placeholder": "Ex: HUF-8282"}}, {"type": "Feature", "props": {"id": "Feature-bbc8abd0-37c4-4722-9c06-09cf0842de80", "title": "", "features": [{"icon": "IconCarSuv", "title": "Informações do veículo", "description": "Consiga informações sobre a cor, modelo, categoria e muito mais sobre o veículo."}, {"icon": "IconTable", "title": "Tabela FIPE", "description": "Utilize as informações da tabela FIPE para consultar o valor de mercado do veículo."}, {"icon": "IconUserDollar", "title": "Situação Financeira", "description": "Consulte a situação financeira do veículo para tomar a melhor decisão."}], "description": ""}}]},
-  "faq": {"root": {"props": {"slug": "/perguntas-frequentes", "title": "Perguntas Frequentes", "description": "Encontre respostas rápidas e precisas para suas dúvidas sobre consultas de placas de veículos. Tire suas dúvidas agora!"}}, "zones": {}, "content": [{"type": "Faq", "props": {"id": "Faq-03700e4d-a241-46df-8a44-3461f44c5a52", "items": [{"answer": "Somos uma empresa que oferece serviços de consulta de placas automotivas, auxiliando o consumidor a tomar a melhor decisão antes de comprar o seu próximo veículo.", "question": "O que é a BuscaSim?"}, {"answer": "Nós oferecemos uma consulta grátis com informações mais simples sobre o veículo, por exemplo cor, marca, modelo, ano etc. Caso precise de informações mais detalhadas, oferecemos uma consulta premium com todas as informações.", "question": "A consulta é grátis?"}, {"answer": "Nós armazenamos um histórico das suas consultas premium, para você consultar e comparar as informações dos veículos quando quiser.", "question": "Vou poder consultar o meu histórico de consultas?"}], "title": "Perguntas Frequentes"}}]},
-  "contact": {"root": {"props": {"slug": "/contato", "title": "Contato", "description": "Entre em contato conosco para mais informações sobre consultas de placas de veículos. Estamos aqui para ajudar!"}}, "zones": {}, "content": [{"type": "Contact", "props": {"id": "Contact-bb4b3f85-e051-495b-9bc1-7793e51d94ae", "end": "Qualquer dúvida, crítica ou sugestão nos mande uma mensagem que vamos responder todas as suas dúvidas.", "intro": "Clique no botão abaixo para enviar a sua mensagem para a equipe de suporte. Entraremos em contato em breve.", "title": "Ainda está com dúvidas?", "textButtom": "Suporte"}}]},
-  "privacy-policy": {"root": {"props": {"slug": "/politica-de-privacidade", "title": "Política de Privacidade", "description": "Leia nossa política de privacidade para entender como protegemos suas informações durante consultas de placas de veículos."}}, "zones": {"Block-5e1b0567-2f3b-45c2-8706-3ad821af70a9:content-block": [{"type": "VerticalSpace", "props": {"id": "VerticalSpace-9ebb2a5b-63a7-467c-b282-21daa4f29036", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-78d7e475-3ca7-4e77-a1fc-a38e7555e571", "size": "sm", "text": "Última atualização: 14/11/2023", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-724e7706-7136-4ee3-b667-e1171735a669", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-fcb89baf-d8b1-499c-9355-c029b745872e", "align": "left", "color": {"hex": "#343434"}, "order": 1, "title": "POLÍTICA DE PRIVACIDADE", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-74d4d0a6-75e4-433b-92d2-69b892460715", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-422b8879-a195-42e0-a9d0-246f6d09f294", "size": "md", "text": "VISÃO GERAL", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-37092808-c603-40c3-9303-86ab3621034f", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-64d30b8f-d4f0-4d20-9314-ec42d2c05059", "size": "md", "text": "O presente documento configura a Política de Privacidade (“Política de Privacidade”) da Plataforma Digital denominada BUSCASIM, de forma que estabelece as regras referentes à coleta, as finalidades, ao armazenamento, à proteção e ao compartilhamento de todos os dados pessoais que venham a ser coletados dos Usuários que venham a utilizar quaisquer dos serviços oferecidos pela Plataforma Digital, que foi desenvolvida pela Rvs Comercio e Servicos Digitais LTDA Cadastrada no CNPJ sob n. 428494210001-31, com sede na Avenida Eng Luiz Carlos Berrini, 1748, Complemento: Conj 1710 Bairro: Cidade Monções CEP: 04571-000 na cidade de São Paulo/SP.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-29b47bca-db40-4af7-b8ba-c7532d0ee285", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-e426830e-866a-40e7-8168-a30429fa5cc3", "size": "md", "text": "A BUSCASIM SERVIÇOS DE INTERNET LTDA se reserva no direito de criar produtos novos e/ou funcionalidades que sejam úteis à Plataforma Digital. À exceção de disposição contrária, o presente documento será utilizado e aplicado aos novos produtos ou funcionalidades que forem posteriormente desenvolvidos.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-0f47a97e-260c-4c90-998d-c74e14798466", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-be90978f-f7e4-4084-ad72-8873e065447c", "size": "md", "text": "Contudo, se houver a necessidade que implique em modificações na forma como se dá a coleta, a finalidade, o armazenamento, a proteção e o compartilhamento de dados pessoais, o Usuário será informado, de maneira prévia, por meio de uma nova política de privacidade, de forma que a continuidade da utilização dos serviços da Plataforma, será interpretada como seu consentimento aos novos termos apresentados. Ao utilizar de quaisquer formas os produtos oferecidos por esta Plataforma Digital, o Usuário concorda com a presente Política de Privacidade, que se aplica a todas as relações envolvendo a BUSCASIM e seus Usuários. Caso o mesmo discorde dos termos da presente Política de Privacidade, não deverá usar a presente Plataforma e nenhuma de suas ferramentas.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-c0e17153-a513-4503-9011-4fb0c1372a3a", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-1df658d6-75db-468c-8793-e84587b16431", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "ITENS DESTA POLÍTICA", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-db1fd60b-2bb7-4c5d-9b83-f70908b0c29f", "size": "16px"}}, {"type": "List", "props": {"id": "List-2047be20-442c-4096-bb2e-346f51b89b3b", "size": "md", "type": "Ordered", "iteins": [{"item": "OBJETO.........................................................................................................................................................................."}, {"item": "INFORMAÇÕES DE ACESSO........................................................................................................................................."}, {"item": "QUANDO O USUÁRIO CRIA UMA CONTA NA BUSCASIM............................................................................................"}, {"item": "QUANDO O USUÁRIO PROCURA SERVIÇOS ADVOCATÍCIOS NO SERVIÇO BUSCASIM................................................."}, {"item": "INFORMAÇÕES DE TERCEIROS INSERIDAS PELO USUÁRIO NA PLATAFORMA......................................................."}, {"item": "FONTES OFICIAIS.........................................................................................................................................................."}, {"item": "TRATAMENTO DOS DADOS PESSOAIS E FINALIDADES............................................................................................"}, {"item": "CUMPRIMENTO CONTRATUAL..................................................................................................................................."}, {"item": "ATENDIMENTO DA LEGISLAÇÃO PARA PROTEÇÃO DE DADOS..............................................................................."}, {"item": "SERVIÇOS PERSONALIZADOS PARA O USUÁRIO...................................................................................................."}, {"item": "COMUNICAÇÃO..........................................................................................................................................................."}, {"item": "OFERTAS E PUBLICIDADE........................................................................................................................................."}, {"item": "DESEMPENHO E SEGURANÇA..................................................................................................................................."}, {"item": "COMPARTILHAMENTO DAS INFORMAÇÕES COM TERCEIROS.............................................................................."}, {"item": "ZELO PELA SEGURANÇA DAS INFORMAÇÕES........................................................................................................."}, {"item": "SERVIÇOS DE TERCEIROS........................................................................................................................................."}, {"item": "ALTERAÇÃO DA POLÍTICA DE PRIVACIDADE.........................................................................................................."}, {"item": "CONTATOS E DÚVIDAS.............................................................................................................................................."}]}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-98cdfa3e-b093-44ba-b3c1-72a8ac17356d", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-d968645d-8827-4936-9613-6202139b8a49", "align": "left", "color": {"hex": "#343434"}, "order": 1, "title": "1. OBJETO", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-718f2c02-cea1-46d5-aef7-65172a619d42", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-05abe8e0-29d5-4d2e-9e78-7b28d82c7d47", "size": "md", "text": "1.1. A Política de Privacidade em conjunto com os Termos de Uso da Plataforma, tem como finalidade publicar de forma clara e objetiva o funcionamento da presente plataforma, nos termos do exigido pela Lei do Marco Civil da Internet (Lei n. 12.965/2014) e pela Lei Geral de Proteção de Dados (Lei n. 13.709/2018).", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ab94b921-8199-48b1-9d4e-cb3d1057395c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-d8929715-4430-421f-b463-1a6fd785d6c7", "size": "md", "text": "1.2. A referida Política de Privacidade tem por objeto específico: as informações e dados pessoais coletados pela BUSCASIM; a forma de tratamento destes dados, os possíveis compartilhamentos de dados; as finalidades para que determinados dados tenham sido coletados e os direitos do Usuário em relação aos dados pessoais que por ele forem fornecidos ou coletados pelo diretamente pela plataforma da BUSCASIM.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-bd725d76-f457-4e93-bb74-d52ecfe5bac3", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-440fed0a-cb44-4144-892e-2418bf2c37ef", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "2. INFORMAÇÕES DE ACESSO", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-132367a4-1a79-46aa-8e67-da5b4d055c29", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-f219b60c-ff03-4b6f-9ace-16db99e7e1ea", "size": "md", "text": "2.1. Somados aos dos dados pessoais e informações fornecidas de forma voluntária pelo usuário, a BUSCASIM, por meio de cookies e tecnologias similares, inclusive de terceiros, também coletará e armazenará informações que são recebidas de forma sincronizada e automática a cada interação do Usuário com a Plataforma, como por exemplo: IP, informações sobre interações com a Plataforma, navegador utilizado, UDID, histórico de navegação e IMEI.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-c3a2519e-46a7-41bb-b8d8-db550daffbb5", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-0b96d8f6-5549-4227-b9bd-8d6fbe1eba98", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "3. QUANDO O USUÁRIO CRIA UMA CONTA NA BUSCASIM", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-7e237226-782c-4422-b2cc-e4b87ec0652c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-c803cad8-2a8f-48e7-8df2-d3368c05d75c", "size": "md", "text": "3.1. A utilização dos serviços fornecidos pela BUSCASIM somente está disponível para os Usuários que estiverem cadastrados na Plataforma. Para o cadastro, serão necessárias as seguintes informações, para fins de identificação e individualização dos Usuários na Plataforma: Nome, CPF, e-mail, profissão, endereço e senha de acesso.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-9c27cc7d-304c-45a8-b85a-bfaf9aa39db2", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-7dbd3a43-3b09-493d-8eaf-92eb21277f95", "size": "md", "text": "3.2. O Usuário tem o direito de alterar e atualizar seus dados a qualquer momento, autorizando a BUSCASIM a manter o registro das informações e dados previamente fornecidos, por motivos de segurança e controle de acessos, pelo período mínimo de 10 anos.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-0b6ed9bb-4dc8-4df8-a5e5-b62a081e1d92", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-9876e9fd-7d1e-4206-a257-86e74621e970", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "4. QUANDO O USUÁRIO PROCURA SERVIÇOS NO BUSCASIM", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-e80baa6b-4187-44b7-bba1-bd47186aca89", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-baf492ce-b0a6-4f6d-878f-cd7be1e02742", "size": "md", "text": "4.1. A BUSCASIM permite, a qualquer pessoa interessada, buscar advogados cadastrados em seu banco de dados a fim de obter atendimento especializado sobre a sua pretensão. Contudo, para tanto, a pessoa interessada deverá realizar uma avaliação prévia do seu caso, por meio de sistema que se utiliza de inteligência artificial, a fim de que a Plataforma possa calcular a probabilidade de êxito da respectiva pretensão jurídica e informá-la ao profissional interessado.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-255ac2ee-8d9e-41ba-87ee-9e2607af493c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-0ffae536-04a7-41f9-ae88-24b679f60e32", "size": "md", "text": "5. Tendo em vista o teor pessoal das informações, ao utilizar a Plataforma, o Usuário cadastrado declara expressamente que as pessoas, cujas informações forem inseridas, autorizaram previamente o uso de tais dados, bem como estão cientes e concordam com as disposições desta Política de Dados.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-da56d9ad-1a72-46b1-a18e-6935e71b4786", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-3443263f-61f8-4beb-8007-49bb442834fb", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "6. FONTES OFICIAIS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ea8c73fc-832a-407d-b077-c13f701e9364", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-ce815355-27fa-485d-82d0-557542f514b2", "size": "md", "text": "6.1. Dados pessoais são extraídos pela BUSCASIM, de forma automatizada, de fontes publicamente disponíveis, como fontes do governo, diários oficiais, dados oriundos de tribunais referentes a processos, informações de salas de imprensa de órgãos públicos e legislação, a fim de ampliar o acesso a esse conteúdo por parte dos seus Usuários.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ce380300-154f-474d-bbf8-e219e33808c9", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-753756ee-088d-44ca-a2fd-21bf9597e3b7", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "7. TRATAMENTO DOS DADOS PESSOAIS E FINALIDADES", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-29c5a721-6fa8-4c32-838b-3a7b83a72555", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-c90bdafa-2175-43ee-b556-7e677e335134", "size": "md", "text": "7.1. Em razão da interação do Usuário com a Plataforma, a BUSCASIM coleta e armazena uma série de Informações, conforme descrito acima, seja pela necessidade de cumprimento da legislação, seja em relação ao cumprimento de suas obrigações contratuais ou ainda em decorrência de medidas de segurança adotadas.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-1e0f18a1-af8e-4e56-9d9c-1b1e05d9f82b", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-9eb77238-ee14-4d02-b8d3-50a922664a93", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "8. CUMPRIMENTO CONTRATUAL", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-258834a3-8119-4f36-8f19-35e6424735b6", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-e3eaf3d5-c567-4f33-8a6a-3ee8d276dc91", "size": "md", "text": "8.1. Os dados e informações de terceiros são processadas e tratadas pela BUSCASIM com o interesse legítimo de prestar a cada Usuário os serviços pelos quais o mesmo contratou a sua assinatura da Plataforma.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-39e3b0cc-b3fc-43ff-a5c6-31ef9fa4a2a9", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-1e4914e6-a753-489b-b25e-64906d773ded", "size": "md", "text": "8.2. A Plataforma utiliza das informações e dados de terceiros a fim de alimentar a ferramenta destinada à leitura automática de documentos, que atuam por meio de inteligência artificial com a finalidade de realizar análises sobre direitos decorrentes das informações contratuais fornecidas.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d2781417-76b7-486a-b424-69e7b8825cb3", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-a67ce6bb-4a18-43c4-8f9e-e12e1642d6a3", "align": "left", "color": {"hex": "#343434"}, "order": 1, "title": "ITENS DESTA POLÍTICA", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-fdab4edc-8740-4c61-96b2-12ab64466316", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-0bdd23bc-13b5-4bac-a5f6-822dd68615fc", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "9. ATENDIMENTO DA LEGISLAÇÃO PARA PROTEÇÃO DE DADOS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-945597e3-db79-4a30-b258-04c8273b1bb5", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-63172239-8eb9-4239-96ce-18cc0afa487b", "size": "md", "text": "9.1. A BUSCASIM também realiza o tratamento de dados pessoais, a partir da coleta e do armazenamento dos mesmos, fornecidos no cadastro e demais informações inseridas pelo Usuário, de forma a estabelecer um controle adequado de acesso de todos os Usuários, observando assim a legislação que estabelece as diretrizes e normas à proteção dos dados.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-33e6def8-d722-4726-8c2e-451ff1af0d28", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-33d089eb-cb9e-4fa5-8463-0f8dbef70f75", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "10. SERVIÇOS PERSONALIZADOS PARA O USUÁRIO", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-b223171c-6d30-46db-8c87-cb19cdf5e0c9", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-a2157f30-ba1d-44f3-892a-8f42654edbd9", "size": "md", "text": "10.1. As informações coletadas, processadas e armazenadas, com destaque àqueles dados que são coletados de forma automática, destinam-se a possibilitar que a BUSCASIM ofereça serviços personalizados e melhores ao Usuário dentro da Plataforma. As informações podem ainda ser destinadas à solução de problemas, realização de testes e melhorias nas ferramentas oferecidas no site.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-f32499a0-2618-4e85-babd-5ba3234f02d0", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-055891f4-e84c-471f-b670-e150e6f4178b", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "11. COMUNICAÇÃO", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-209f8c50-6051-4701-8f20-2f139ea3cd4a", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-5b6487fe-1c28-4955-bf61-b675717199ff", "size": "md", "text": "11.1. As informações de cadastro podem também ser utilizadas para possibilitar a comunicação entre a BUSCASIM e o seu Usuário cadastrado. Destaca-se que a Plataforma é soberana para elencar quais situações são necessárias ao contato com o usuário, que deverá ocorrer via contatos cadastrados pelo Usuário como endereço de e-mail e WhatsApp.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d074e93d-abca-4d20-ad51-6b01d3fdda8b", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-d872f1d6-487a-4a4a-b1e7-e2fff17a13fa", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "12. OFERTAS E PUBLICIDADE", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-eda5a587-2a09-443e-8c77-8b668911f679", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-9ea4d747-a5a6-4c4a-8417-5be407076987", "size": "md", "text": "12.1. Os dados fornecidos mediante o cadastro na Plataforma poderão ser utilizados com a finalidade de oferecer serviços, novidades, ferramentas, oportunidades e demais assuntos de possível interesse do Usuário, desde que com o seu consentimento prévio.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-f5d6208e-a5be-4a77-b7a3-2ff5ecb69393", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-677ad0e9-9717-4aef-a793-3906c8fd0c62", "size": "md", "text": "12.2. Determinadas ofertas poderão ser adequadas ainda à localização geográfica do Usuário, por meio de algoritmos da BUSCASIM, conforme dados cadastrais ou ainda por meio do serviço Google AdSense, cujas informações sobre como o Google trata os dados coletados na Plataforma podem ser conferidas em www.google.com/policies/technologies/partner-sites/.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-e9eb6ab4-d2a5-4b07-bf84-31d87e28f6e0", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-9828e7d2-d2f8-4afa-95b5-4c06c5dab009", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "13. DESEMPENHO E SEGURANÇA", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-618ebddd-b90b-41be-957e-9259a1abaef4", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-84ccd7ec-79cb-40ca-b290-fad34635c497", "size": "md", "text": "13.1. As informações acerca da utilização da Plataforma por cada usuário, de forma individualizada, dentre outros aspectos, também apresentam a finalidade de permitir que a BUSCASIM assimile a maneira com que o Usuário interage com a Plataforma, garantindo a devida funcionalidade e evolução em busca do aprimoramento de suas ferramentas. Além disso, a BUSCASIM utiliza determinados dados e informações no combate direto e diário a possíveis fraudes e atividades ilegais, aprimorando continuamente seus elementos de segurança.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-cfa5be63-3728-479d-8547-6aac90c40a6a", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-7230d8c3-66ff-4a21-be5a-703dfc0ea6ce", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "14. COMPARTILHAMENTO DAS INFORMAÇÕES COM TERCEIROS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-71139b8e-e71f-4559-8356-582c967fc880", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-52b262bd-fa18-4e42-9060-019da02445b4", "size": "md", "text": "14.1. O funcionamento periódico e regular de algumas das ferramentas oferecidas pela BUSCASIM depende do compartilhamento de dados e Informações com terceiros, conforme situações descritas a seguir:", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-6000720b-891f-48ff-9397-3171b21b3f2e", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-947e0b5c-5e58-464d-8f05-b11dcbc1b63e", "size": "md", "text": "14.1.1. ADVOGADOS E ESCRITÓRIOS DE ADVOCACIA DEVIDAMENTE CADASTRADOS: A BUSCASIM, em casos onde os usuários estiverem interessados em contratar serviços, pode vir a compartilhar dados pessoais, com advogados e/ou escritórios de advocacia previamente cadastrados na Plataforma, desde que com consentimento prévio do titular, a fim de que sejam realizados procedimentos preliminares indispensáveis a celebração de contrato de prestação de serviços advocatícios/jurídicos.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-196045b1-567d-42fc-be5a-4c549e5c999e", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-63d57416-1015-4a70-b5c5-f056029b9019", "size": "md", "text": "14.1.2. OBSERV NCIA DAS OBRIGAÇÕES LEGAIS OU REQUERIMENTOS DE AUTORIDADES: As Informações dos Usuários poderão ser compartilhadas com Autoridades e Órgãos públicos em caso de ordem judicial que obrigue a BUSCASIM ao fornecimento de tais dados ou, em casos específicos quando a BUSCASIM entender que o tal procedimento é imprescindível ao cumprimento de quaisquer obrigações decorrentes da legislação.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-201c840a-0bf9-4d3b-a3d5-0646e54e3128", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-646b4057-55c4-4d4a-8d3d-554c6c43d549", "size": "md", "text": "14.1.3. DIREITOS DOS USUÁRIOS: A BUSCASIM adotará medidas técnicas e organizacionais apropriadas para cumprir as suas obrigações em relação aos direitos dos Usuários enquanto titulares dos dados pessoais, nos termos da Lei Geral de Proteção de Dados (Lei n. 13.709/2018). Nesse sentido, a BUSCASIM se compromete a viabilizar da melhor forma possível os seus direitos, tais quais previstos em lei, quais sejam: Confirmação: direito a ser informado sobre a existência de tratamento. Acesso: direito de solicitar o acesso aos dados pessoais tratados pela BUSCASIM. Correção: direito de solicitar a alteração dos dados pessoais tratados pela BUSCASIM sempre que estiverem incompletos, inexatos ou desatualizados. Restrição: direito de solicitar a anonimização, o bloqueio ou a eliminação de dados desnecessários, excessivos ou tratados pela BUSCASIM que, eventualmente, estejam em desconformidade com a legislação de proteção de dados pessoais. Portabilidade: direito de solicitar a transmissão dos dados tratados pela BUSCASIM para outro fornecedor de serviços. Eliminação: direito de solicitar a eliminação dos dados pessoais tratados pela BUSCASIM com o consentimento do Usuário. Informação: direito de ser informado sobre as entidades públicas e privadas com as quais a BUSCASIM compartilhou dados, sobre a possibilidade de não fornecer consentimento e sobre as consequências desta negativa. Revogação do consentimento: direito de revogar o consentimento a qualquer momento, através de manifestação expressa, por procedimento gratuito e facilitado. Revisão às decisões automatizadas: possibilidade de revisão de decisões tomadas pela BUSCASIM unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-8b53e647-071e-46fd-9328-f14b15dd8762", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-62a4e2eb-0869-4cfa-a041-5a9fe3404595", "size": "md", "text": "14.2. Caso queira exercer algum dos direitos previstos nesta Política de Privacidade ou na legislação aplicável, ou tenha dúvidas sobre este documento e as práticas nele descritas, você deverá entrar em contato com a pessoa encarregada na BUSCASIM pela comunicação com titulares de dados pessoais, através do email: contato@BUSCASIM.com.br", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-3c277d76-f96a-4179-89f9-c3896d418aab", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-2a67592b-8bd2-4bb8-b448-98b07e30b7b0", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "15. ZELO PELA SEGURANÇA DAS INFORMAÇÕES", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-f159279d-bcd7-4086-8841-6167a2f63e48", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-3dec339f-4b61-4d46-84bd-988efd073f6e", "size": "md", "text": "15.1. A BUSCASIM trabalha incessantemente pela segurança das Informações de seus Usuários, utilizando-se de todos os esforços disponíveis na defesa e proteção dos dados pessoais dos seus Usuários ou de qualquer um que venha a utilizar nossos serviços, por meio de práticas e serviços de segurança atualizados e eficientes.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-a26bfdfc-0ee9-450c-9a31-0e2a79532c5d", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-d1c68f26-43f0-4a0f-971f-23933087804b", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "16. SERVIÇOS DE TERCEIROS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-380e9258-03ca-4faf-ad67-100fe096f486", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-4a599207-cb5e-4a19-9fcc-dbaa96ada58d", "size": "md", "text": "16.1. A Plataforma e os Serviços da BUSCASIM poderão conter links para produtos de parceiros, os quais possuem termos e políticas próprias. Ou seja, esta Política se limita à Plataforma e aos Serviços oferecidos pela própria BUSCASIM. Embora a BUSCASIM busque constantemente firmar relações com parceiros confiáveis, a BUSCASIM não se responsabiliza pelas práticas de tratamento de dados pessoais realizadas exclusivamente por esses terceiros. Por essa razão, o Usuário deve ter pleno conhecimento dos termos e políticas de privacidade de terceiros externos à Plataforma antes de fornecer qualquer dado pessoal. Em relação aos dados obtidos de fontes oficiais, considerando que sua coleta e atualização são realizadas de forma automatizada e sem qualquer ingerência da BUSCASIM quanto à sua precisão, a BUSCASIM não se responsabiliza por eventuais inexatidões, omissões ou erros em relação a esses dados.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-09835ae3-5ad9-436d-890d-0630de002508", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-49fdd2c8-711a-450c-8a59-8bb32c80d2dc", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "17. ALTERAÇÃO DA POLÍTICA DE PRIVACIDADE", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-3590fec1-f21d-4965-9fac-7a29b3467c22", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-ecb134c9-30b7-42f7-b92e-11ba54d92dac", "size": "md", "text": "17.1. A BUSCASIM, como já informado anteriormente, poderá alterar esta Política de Privacidade a qualquer momento. O Usuário poderá não concordar com os novos termos, hipótese na qual o acesso à Plataforma será bloqueado a partir da entrada em vigor da nova redação.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-5f9cff6b-6a28-4899-92dc-a0d37698dc41", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-4aa605be-ce1a-488a-9805-8ee526a7594c", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "18. CONTATOS E DÚVIDAS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-3d501e52-bd69-4a52-9316-1b650cc410cd", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-c987324d-7704-474e-bc31-707d3817d2e8", "size": "md", "text": "18.1. Caso o Usuário tenha qualquer dúvida referente a esta Política de Privacidade ou, ainda, pretender realizar qualquer solicitação em relação às suas Informações, deverá entrar em contato com a BUSCASIM, através do email: contato@BUSCASIM.com.br", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-6d3e0ea1-b251-49e2-ae0a-a8801c6f3fba", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-18223575-91c6-4ca4-8657-9fb804c8eb71", "align": "left", "color": {"hex": "#343434"}, "order": 2, "title": "GLOSSÁRIO", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-b6c0960a-0d79-4af9-a847-647976f3f29d", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-fc925e91-ef50-4f57-9195-5a9b265974a2", "size": "md", "text": "CDC: Código de Defesa do Consumidor VOCÊ: usuário da BUSCASIM que se enquadra no art. 2º do CDC. BUSCASIM: Rvs Comercio e Servicos Digitais LTDA Cadastrada no CNPJ sob n. 428494210001-31, com sede na Avenida Eng Luiz Carlos Berrini, 1748,Complemento: Conj 1710 Bairro: Cidade Monções CEP: 04571-000 na cidade de São Paulo/SP.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ec6f6196-7187-45ef-a096-aad5aacb977c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-a77d8406-4c01-4559-991e-88ce456b946b", "size": "md", "text": "FAQ: do inglês Frequently Asked Questions, concentra as respostas sobre as dúvidas mais comuns dos clientes.", "align": "left", "color": {"hex": "#343434"}, "weight": "400", "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-2671f433-6882-427a-ae1d-2e496d303f0a", "size": "72px"}}]}, "content": [{"type": "Block", "props": {"id": "Block-5e1b0567-2f3b-45c2-8706-3ad821af70a9", "background": {"hex": "#0000"}}}]},
-  "thanks": {"root": {"props": {"slug": "/muito-obrigado", "title": "Muito Obrigado", "description": "Agradecemos por escolher nossos serviços para consultas de placas de veículos. Seu suporte é muito valioso para nós!"}}, "zones": {}, "content": [{"type": "VerticalSpace", "props": {"id": "VerticalSpace-59e542bf-2835-4220-a94f-762bac9b698b", "size": "88px"}}, {"type": "ThankYou", "props": {"id": "ThankYou-0ceab117-5839-458a-9fd6-636ffee4d878", "title": "Obrigado!", "subtitle": "Parabéns! Você acabou de adquir o seu relatório Premium.", "background": {"hex": "#0000"}, "buttonText": "Ver meu relatório", "description": "Você vai poder consultar esse relatório quando quiser no menu Minhas Consultas"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-514c3ed7-3cdf-447e-971e-178a27864ed8", "size": "88px"}}]},
-  "terms": {"root": {"props": {"slug": "/termos-de-uso", "title": "Termos De Uso", "description": "Leia nossos termos de uso antes de utilizar nossos serviços de consulta de placas de veículos. Proteja-se, conheça seus direitos!"}}, "zones": {"Block-5d28fdf1-a107-487a-b228-128b24d59a53:content-block": [{"type": "HeadingBlock", "props": {"id": "HeadingBlock-9cce5bf5-6ece-45d1-b053-805d37ddfc6f", "align": "center", "color": {"hex": "#007bff"}, "order": 1, "title": "TERMOS DE USO", "padding": 29, "textWrap": "wrap"}}, {"type": "Paragraph", "props": {"id": "Paragraph-e0897eff-1f51-4854-92e9-126ce66c442e", "size": "md", "text": "Versão atualizada em: 17 de Mar. de 2024 12:00", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ecfca70c-8886-41cf-983e-7e94306970f8", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-0d8f0610-3f5d-40a6-b16b-35f757681dbb", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "CONSIDERAÇÕES INICIAIS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-0fd52f6b-cdf0-4f97-9d31-1ac6d563f4b0", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-5c268682-db2a-4a0c-9165-06bb515a52fc", "size": "md", "text": "Estes são os Termos de Uso (“Termos”) que determinam as finalidades, a utilização e os limites de todo e qualquer acesso à Plataforma da BUSCASIM, por qualquer pessoa que se utilize de nossas ferramentas de Software como Serviço, na qualidade de “USUÁRIO”.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-77c760d3-b643-479b-b779-82ca2300d25b", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-61e6b59f-527a-4e55-8bda-47d42a5afd36", "size": "md", "text": "Ao aceitar os Termos e efetuar o cadastro, você, na qualidade de USUÁRIO, concorda com a íntegra dos Termos aqui dispostos. Caso não concorde, você não deverá realizar o cadastro em nossa Plataforma. Além disso, após o cadastro, o USUÁRIO não poderá alegar ignorância, inclusive quanto ao teor deste documento.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-4c8541aa-bc5e-4d59-be27-4e524998c50c", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-20a1ba45-1ff1-449e-8ef3-8705f9180386", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "1. CONDIÇÕES GERAIS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-64ccef71-c064-47c0-9300-7bf752df5ef8", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-c206e708-8886-4a64-ba2b-a35680fb5124", "size": "md", "text": "1.1. O Site e a Plataforma foram desenvolvidos e são operados exclusivamente pela BUSCASIM. Portanto, é imprescindível que o USUÁRIO siga nossos Termos e conheça nossa Política de Privacidade para navegar na Plataforma e utilizar as ferramentas disponíveis, uma vez que determinadas atividades implicam no tratamento dos dados pessoais do USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-a6979980-5e9a-4125-b65f-aef33bef28fb", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-bc84a30a-dac7-41b5-82fc-9ed33f3064e1", "size": "md", "text": "1.3. A BUSCASIM se reserva o direito de modificar e alterar estes Termos a qualquer momento. Caso ocorra qualquer alteração nos Termos, o USUÁRIO será avisado para tomar ciência da atualização. Se o USUÁRIO discordar da nova versão dos Termos, deverá solicitar o encerramento da nossa parceria.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-3ee1134f-4be2-4e26-b780-6bc08167e340", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-16fb9185-5dd9-4605-8c17-6326d083ce9c", "size": "md", "text": "1.3.1. Se o USUÁRIO não solicitar o encerramento e permanecer utilizando a Plataforma mesmo após o nosso Aviso de Atualização e permanecer utilizando a Plataforma de forma contínua, entenderemos que o USUÁRIO aceitou as alterações e deseja continuar utilizando nossos serviços.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-0885c89f-ef3c-42a6-9f2a-25d7311a803c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-d256df74-a17e-4a38-b5a8-2546af4c9d38", "size": "md", "text": "1.4. A BUSCASIM não estimula ou realiza qualquer forma de captação de causa ou clientela para serviços adversos.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-797778b0-91d7-4d30-9563-d5602d72cd99", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-951de97e-07bd-4156-b4bc-e43e21afcc99", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "2. CADASTRO", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-97467df0-149d-4fcd-bbad-2692ac5a8658", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-72f06742-9e57-42b9-9a85-072db2213ec4", "size": "md", "text": "2.1. O acesso e a utilização de quaisquer serviços da BUSCASIM exigirão a realização de um cadastro prévio, adesão ao presente Termo, escolha de um dos planos ofertados e, o respectivo pagamento pelo uso das ferramentas disponibilizadas.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-5098c3f3-5ca5-4ca2-978e-4f7256198cd2", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-aebfc5d6-a4c6-4926-8977-c1aae0d86b79", "size": "md", "text": "2.2. Para o cadastro, os seguintes dados serão requeridos:", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-9e1c72bb-2412-482f-ba57-c9026d88dc3d", "size": "16px"}}, {"type": "List", "props": {"id": "List-2f116aae-fc94-4453-9231-f828304340ef", "size": "md", "type": "unordered", "iteins": [{"item": "Nome e sobrenome"}, {"item": "E-mail"}, {"item": "Endereço"}, {"item": "Cidade de residência"}, {"item": "Profissão"}, {"item": "Telefone de contato"}, {"item": "CPF"}, {"item": "Data de nascimento"}, {"item": "Sexo"}, {"item": "Nome do USUÁRIO (nome pelo qual o perfil do USUÁRIO poderá ser identificado na Plataforma)"}]}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-7611ac23-26cb-4f34-b010-94a665abd98b", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-420d104a-2648-41a0-9a97-8afaaa113c89", "size": "md", "text": "2.4. Havendo algum cadastro via convênio ou parceria da BUSCASIM com alguma entidade ou organização, será exigido no preenchimento do cadastro a apresentação do “cupom” ou “convênio”, para o fim de obtenção do eventual desconto ao USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ea81d81e-d83e-4f1b-abab-403613505d4a", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-d234647f-02ff-4882-87e6-2a350e0dcb90", "size": "md", "text": "2.4.1. Todos os Cupons de desconto e/ou Convênios que a BUSCASIM possa vir a criar terão benefícios e critérios de cobranças próprios, não ficando adstrito às informações dos planos padrões de assinatura disponíveis na página inicial da BUSCASIM. Todas informações do cupom/convênio serão disponibilizadas no momento do cadastro para o USUÁRIO, que poderá escolher em assinar ou não o serviço.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-421060f0-98e9-44bf-af81-afca2ca6ca36", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-7806b33f-25aa-4d2a-bb5d-5266b2d95709", "size": "md", "text": "2.4.2. Os Convênios terão validade enquanto perdurar a relação entre a BUSCASIM e a instituição parceira. Caso o encerramento do Convênio ocorra no decorrer da nossa relação, o USUÁRIO será previamente informado.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-76aa8f39-7c92-48cd-90d2-2b775be2f49f", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-21858fd6-94bd-400c-a108-c15c6506ea53", "size": "md", "text": "2.4.3. Os Cupons terão validade de acordo com cada campanha publicitária, seja diretamente pela BUSCASIM ou através de algum parceiro.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d120c65e-b8ba-42b4-a5cf-a324c873175e", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-4dce96fe-0c59-4b87-9cd7-7ab299bf6a0c", "size": "md", "text": "2.4.4. Via de regra, os cupons de desconto serão individuais e somente poderão ser aplicados uma única vez, não sendo cumulativos com outros descontos.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-a418e46a-b507-4333-858e-c7be76cc30cd", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-fbb4c381-572a-41b5-86de-73f79c783e27", "size": "md", "text": "2.5. Em determinadas situações, os serviços oferecidos na Plataforma poderão requerer informações adicionais ao USUÁRIO, seja para melhor identificá-los, conduzir diligências internas ou ainda oferecer serviços especializados e garantir a melhor experiência ao USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-b96e1cfc-d1ef-4896-8efe-1257d9615c14", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-1835c49c-9d24-44d1-b8db-be9d4a9332f0", "size": "md", "text": "2.6. Os dados pessoais informados pelo USUÁRIO, bem como os dados disponibilizados durante o uso dos serviços, serão tratados pela BUSCASIM estritamente em conformidade com a sua Política de Privacidade.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-a04f764d-4ab1-43db-9958-cf7009c280b4", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-e75ce17c-f002-4659-b82d-454a22c13d91", "size": "md", "text": "2.7. Ao se cadastrar na Plataforma, o USUÁRIO deverá informar dados completos, recentes e válidos, sendo de sua exclusiva responsabilidade manter as referidas informações atualizadas.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-4fff4216-555f-4d6c-beab-d4f9a84ae48e", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-3bca696b-3ead-4efc-b3d5-e021da572348", "size": "md", "text": "2.8. O USUÁRIO se compromete a não informar seus dados cadastrais e/ou de acesso à Plataforma a terceiros, responsabilizando-se integralmente pelo uso que deles seja feito.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-daa4967d-0736-41e1-a002-ec7028c40ae7", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-508bf33d-3fc8-4fe6-a43d-fbb4b3423ae0", "size": "md", "text": "2.9. A BUSCASIM poderá se valer de todas as formas lícitas para verificar, a qualquer tempo, se as informações que o USUÁRIO forneceu são verdadeiras. Se for constatado que as informações são de alguma forma incompletas, imprecisas ou falsas, o USUÁRIO poderá ter o seu cadastro suspenso ou cancelado, a exclusivo critério da BUSCASIM, sem prejuízos de outras medidas que sejam aplicáveis, caso em que não serão devidos quaisquer reembolsos.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d2a47d3d-27d7-4ce2-a8a1-46d431b84309", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-8a7dc60b-508b-438f-a40f-0a15b6a387b1", "size": "md", "text": "2.9.1. Ainda, se for constatado dois ou mais cadastros de mesmo USUÁRIO tentando obter acesso contínuo e permanente ao período grátis, será de imediato autorizado a cobrança equivalente ao plano de menor valor em todos cadastros feitos pelo USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-01fdc6df-54e1-4130-84a4-956987185643", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-63291174-1dfa-4bc0-8cad-66357d48946b", "size": "md", "text": "2.10. A senha de acesso à Plataforma assegura ao USUÁRIO o acesso individual à mesma, protegendo o seu cadastro. Desta forma, compete ao USUÁRIO exclusivamente a manutenção de referida senha de maneira confidencial e segura, evitando o acesso indevido às suas informações.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d1639204-1cd7-472f-b176-fc750cbf4f5c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-1411b4d5-a382-4872-8872-0e128c15fdbf", "size": "md", "text": "2.11. Toda e qualquer atividade realizada com o uso da senha será de responsabilidade do USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-bb72a5b8-325f-41d8-a508-1ccb21fb5741", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-e336369e-6ac1-4ed8-8ad2-a0a7eaef1ffb", "size": "md", "text": "2.12. Todos os Serviços da BUSCASIM serão acessados pelo mesmo login e senha do USUÁRIO. Todo USUÁRIO cadastrado declara e garante expressamente ser plenamente capaz, podendo exercer e usufruir livremente da Plataforma e dos serviços.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-2419d4c2-972c-46db-a1d2-7030304f101f", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-1ed42a31-7ebd-4283-b568-ef6b8896f8ba", "size": "md", "text": "2.13. Caberá também ao USUÁRIO assegurar que o seu equipamento seja compatível com as características técnicas que viabilizem a utilização da Plataforma e dos serviços, bem como em relação a quaisquer programas de computador necessários, incluindo conexão à internet em alta velocidade ou banda larga.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-98a6fc9b-b25b-463a-8b89-7f8b71f47418", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-f2cb9ea5-67a2-4ae6-a3fc-6b3534977cf5", "size": "md", "text": "2.14. Ao efetivar o cadastro na Plataforma, o USUÁRIO declara que possui ciência e concorda plenamente com todo o conteúdo deste termo, de forma que, futuramente, não poderão ser alegados quaisquer impedimentos legais para o cumprimento das obrigações assumidas neste documento.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-1919e000-945a-44e6-a145-f6866b261228", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-5c9a8d14-51c0-46a6-a47b-e536e91f1e8b", "size": "md", "text": "2.15. O USUÁRIO ao fornecer as informações necessárias ao seu cadastro e/ou ao uso das ferramentas disponibilizadas pela Plataforma, declara que as informações por ele inseridas são verdadeiras, não prejudicam direito de terceiros, tais como direitos autorais, de imagem, privacidade e ainda não reproduzem conteúdo discriminatório de qualquer natureza.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-c62d04f1-407f-41a4-abcc-2d98de5e8600", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-fde897b7-e2a3-4f70-9adf-437dd5fbe3d7", "size": "md", "text": "2.16. Ao utilizar a Plataforma, o USUÁRIO declara possuir anuência e autorização de terceiros para incluir, durante a utilização da Plataforma, dados pessoais dos mesmos, incluindo dados que possam ser classificados como sensíveis, de acordo com Lei nº 13.709/2018 – Lei Geral de Proteção de Dados. O USUÁRIO ainda declara ciência e concordância em relação à Política de Privacidade da BUSCASIM ao incluir dados de terceiros na Plataforma.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-c7964bcc-289a-4237-a71c-2c7d8c9af758", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-8ddd010b-6ea7-4491-9167-4c2e4ce90cc3", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "3. OBRIGAÇÕES E RESPONSABILIDADES DA BUSCASIM", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-33ba5fb5-dd2a-4f8e-a41b-3130e58717b7", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-573a83ce-9342-450e-864f-18f84e378261", "size": "md", "text": "3.1. A BUSCASIM se obriga a manter a Plataforma em funcionamento durante 24 horas por dia, 07 dias por semana, à exceção das interrupções necessárias para manutenção técnica e/ou indisponibilidade de conexão de responsabilidade da operadora de telecomunicação, caso fortuito ou força maior.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-1b3c20ce-36f0-4c53-8fbf-e32d423800a2", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-fe98a88d-9559-4b69-bc9c-cd8929142837", "size": "md", "text": "3.2. A BUSCASIM deverá manter a privacidade e a confidencialidade dos dados e informações fornecidos pelo USUÁRIO, conforme a Política de Privacidade da BUSCASIM e em conformidade com a Lei nº 13.709/2018 – Lei Geral de Proteção de Dados.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d8352de6-94c3-491f-a433-ad4f7991716b", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-bc5c1616-6576-4175-aacf-554700fb0484", "size": "md", "text": "3.3. A BUSCASIM se compromete a não divulgar, compartilhar, dar acesso a, facilitar o acesso a, alugar ou vender a terceiros, os dados e informações fornecidos pelo USUÁRIO sem o seu consentimento prévio, exceto nos casos expressamente previstos na legislação em vigor e na sua Política de Privacidade.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-007702b0-33e9-4873-8db3-2519034e8266", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-6e4c90a9-e30c-4c1c-b419-50b6b798061d", "size": "md", "text": "3.4. A BUSCASIM não se responsabiliza por quaisquer falhas, interrupções, suspensões ou perdas de informações relativas aos serviços prestados por empresas prestadoras de serviços de telecomunicação e/ou conexão à internet, restando claro que o adequado funcionamento da Plataforma depende da regularidade desses serviços.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-59e156b0-d6b2-41e8-a28f-6279c9a806f6", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-09079415-2b80-4a29-9755-a17b7ae88288", "size": "md", "text": "3.5. A BUSCASIM não se responsabiliza por qualquer falha, interrupção ou erro na transmissão de informações advindas do sistema bancário e/ou dos serviços de pagamento realizados na Plataforma.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-6bef3efc-3b67-4649-8d3d-23af6e5206c5", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-85e7073a-6ac3-47e0-952b-965dfd7fe45b", "size": "md", "text": "3.6. A BUSCASIM poderá, a qualquer tempo, alterar as especificações técnicas e características da Plataforma visando à sua melhoria e/ou aperfeiçoamento.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-8443ff39-4bce-4db2-8a81-64f500f59d5d", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-d856a84b-d016-4d08-a101-7008dc106940", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "4. LIMITAÇÃO DE RESPONSABILIDADE", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-ed2d41d7-bc0f-4804-8e3d-0bad36b66fd0", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-4b8d6527-ed0a-41d1-897e-246cba23fcff", "size": "md", "text": "4.1. A BUSCASIM se exime de quaisquer responsabilidades por eventuais prejuízos, danos e/ou perdas de quaisquer natureza, que possam advir do uso da Plataforma ou dos serviços por ela disponibilizados, bem como em relação a qualquer informação disponibilizada pelo USUÁRIO, seja de forma pública ou privada.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-b2e7b3fb-b4d6-4025-ba86-805e6549e479", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-50a1d540-f487-4e6e-8545-ae39de8eec69", "size": "md", "text": "4.2. A BUSCASIM não se responsabiliza por quaisquer erros, atrasos, falhas, omissões ou interrupções na transmissão de dados decorrentes de falhas nos serviços de telecomunicação e/ou conexão à internet, sendo essas de responsabilidade exclusiva da prestadora de serviço contratada pelo USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-b848e62b-58da-40b6-a911-56550a1a2c20", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-87db8f3c-36c7-4c2a-88db-49511666077f", "size": "md", "text": "4.3. A BUSCASIM não se responsabiliza por quaisquer danos e/ou prejuízos decorrentes da utilização indevida dos serviços da Plataforma, por parte do USUÁRIO ou de terceiros, sendo de responsabilidade exclusiva do USUÁRIO a guarda de seus dados de acesso e a não divulgação a terceiros.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-846c77d9-4188-4d41-9991-3a8abc524c52", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-ec9443c9-6edb-4ad2-a84f-6dfd727c63cf", "size": "md", "text": "4.4. A BUSCASIM não se responsabiliza por quaisquer falhas na Plataforma decorrentes de incompatibilidade técnica dos equipamentos e/ou programas de computador do USUÁRIO.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-66b9b45d-5c88-408d-85b8-b408b27d09c3", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-a4d9ac1b-28a3-4f46-b9dd-242be351aa3a", "size": "md", "text": "4.5. A BUSCASIM não será responsável por quaisquer falhas na Plataforma decorrentes de caso fortuito ou força maior, assim compreendidos na legislação civil brasileira.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-beff53b1-a84c-469f-b65d-7d385066316d", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-4a224a1d-89e7-450c-aa3e-eb2b0d9ad9c6", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "5. DIREITOS DE PROPRIEDADE INTELECTUAL", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d6e8f587-7597-49a0-917e-0376c4a0f63f", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-962983ea-763e-4f41-a969-cba3988b22a9", "size": "md", "text": "5.1. O uso comercial da expressão BUSCASIM como marca, nome empresarial ou nome de domínio, os conteúdos das telas da Plataforma, assim como os programas, bancos de dados, redes e seus arquivos são de propriedade exclusiva da BUSCASIM e estão protegidos pelas leis e tratados internacionais de direito autoral, propriedade industrial e concorrência desleal.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-14a91f64-19cd-4891-923d-f9bcbd1bfd57", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-406e02b6-73b1-4969-8f8a-3b3849a77087", "size": "md", "text": "5.2. Ao acessar a Plataforma, o USUÁRIO declara respeitar todos os direitos de propriedade intelectual e os decorrentes da proteção de marcas registradas da BUSCASIM, bem como todos os direitos referentes a terceiros que porventura estejam, ou estiveram, de alguma forma disponíveis na Plataforma.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-711f1d6e-7046-4aea-b5f6-3b7fb90b057b", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-78ca917c-ca52-428f-8b7f-ecdedf1cbf87", "size": "md", "text": "5.3. É vedado ao USUÁRIO copiar, reproduzir, republicar, atualizar, postar, transmitir ou distribuir, de qualquer forma, o conteúdo do site da BUSCASIM, sem a prévia e expressa autorização da BUSCASIM.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-8db7aad8-fede-4e00-8403-3f0dad9e64f9", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-dc53b427-760a-4d58-855b-b5620d5807a2", "size": "md", "text": "5.4. Não constitui exceção a vedação do item anterior o armazenamento do conteúdo da Plataforma para uso estritamente pessoal e sem qualquer finalidade comercial, hipótese em que permanecerão intactos todos os direitos de propriedade intelectual e de autoria.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-8f9f0315-0b39-4777-b5b6-a55f81e4bc0e", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-ca7f0a7b-a765-4516-99cb-13c5f2ac2f94", "size": "md", "text": "5.5. O uso indevido do conteúdo da Plataforma poderá ensejar a aplicação das penalidades previstas em legislação civil e penal, bem como a responsabilização por eventuais danos causados.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-d7b440d2-9213-4982-8c3f-f93e2bebb9a9", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-7267f3ad-a6a6-4b7f-b955-896735fca86d", "size": "md", "text": "5.6. Não é permitido ao USUÁRIO criar e/ou utilizar quaisquer obras derivadas de qualquer conteúdo disponibilizado na Plataforma, sem a prévia e expressa autorização da BUSCASIM.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-27d5622a-05af-4db4-bf44-94182c4f6be3", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-d278658f-0711-4d7d-a220-0f639d8ce283", "size": "md", "text": "5.7. A BUSCASIM reserva todos os direitos de propriedade intelectual relativos à Plataforma, seja ela tangível ou intangível, incluindo, mas não se limitando a: marcas, patentes, desenhos industriais, domínios, denominações, logotipos, layout, identidade visual, identidade corporativa, sistemas, metodologias, processos, formulações, programas de computador, manuais, informações, relatórios, entre outros.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-5711c56a-94f7-451a-b20c-e8a2365eb50c", "size": "16px"}}, {"type": "HeadingBlock", "props": {"id": "HeadingBlock-2b155d76-291a-4011-9b3d-54381891e35f", "align": "left", "color": {"hex": "#007bff"}, "order": 2, "title": "6. DISPOSIÇÕES GERAIS", "padding": 0, "textWrap": "wrap"}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-2ec5ece4-edf8-4f70-97ff-769ce208584c", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-57b72029-cc2a-4351-8d5a-caf4f272edd6", "size": "md", "text": "6.1. A tolerância quanto ao eventual descumprimento de quaisquer das cláusulas e condições deste documento não constituirá novação das obrigações aqui estipuladas e não impedirá ou inibirá a exigibilidade das mesmas a qualquer tempo.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-f02105ba-d069-401c-a7fc-641fb2b121eb", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-c9017b0a-7c76-4e2c-8327-29bc1486e3b5", "size": "md", "text": "6.2. Caso qualquer disposição destes Termos seja considerada inexequível ou sem efeito, os Termos continuarão em vigor, exceto na parte afetada.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-8e39ef0c-776d-4399-8b17-f8ac2170c882", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-49f0dc03-6069-4e2b-825b-96f52c401557", "size": "md", "text": "6.3. A BUSCASIM poderá, a qualquer tempo, ceder, transferir ou de qualquer outra forma alienar os direitos e obrigações decorrentes destes Termos a qualquer empresa integrante de seu grupo econômico.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-0b7a5eab-3cea-433e-a59e-0c61ca817281", "size": "16px"}}, {"type": "Paragraph", "props": {"id": "Paragraph-83ec8367-9d48-429b-aea2-c8edda621db7", "size": "md", "text": "6.4. Em caso de dúvidas sobre o conteúdo destes Termos, o USUÁRIO poderá entrar em contato através do e-mail: juridico@buscasim.com.", "align": "left", "color": {"hex": "#343434"}, "weight": 400, "padding": 0}}, {"type": "VerticalSpace", "props": {"id": "VerticalSpace-0fc28cec-1812-44c2-8cb7-b0bcaa1b8b36", "size": "56px"}}]}, "content": [{"type": "Block", "props": {"id": "Block-5d28fdf1-a107-487a-b228-128b24d59a53", "background": {"hex": "#0000"}}}]},
+  "home": {
+    "root": {
+      "props": {
+        "slug": "/",
+        "title": "Home",
+        "description": "Realize consultas rápidas de placas de veículos e receba informações detalhadas instantaneamente."
+      }
+    },
+    "zones": {
+      "Hero-52af81cc-c657-4a0f-bf31-094bb1905eae:searsh-bar": [
+        {
+          "type": "Search",
+          "props": {
+            "id": "Search-65031cff-fb50-4055-98b1-4e0cf70c8a3c",
+            "size": 55,
+            "align": "left",
+            "pages": [
+              "/resultados"
+            ],
+            "radius": 5,
+            "margins": {
+              "top": 24,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "paddings": {
+              "top": 0,
+              "left": 0,
+              "right": 0,
+              "bottom": 0
+            },
+            "icon_color": {
+              "hex": "#FFFFFF"
+            },
+            "text_color": {
+              "hex": "#000"
+            },
+            "placehoader": "Ex: HUF-8282",
+            "primary_color": {
+              "hex": "#FFFFFF"
+            },
+            "seccond_color": {
+              "hex": "#228BE6"
+            },
+            "placeholder_color": {
+              "hex": "#c4c4c4"
+            }
+          }
+        }
+      ]
+    },
+    "content": [
+      {
+        "type": "Hero",
+        "props": {
+          "id": "Hero-52af81cc-c657-4a0f-bf31-094bb1905eae",
+          "title": "A consulta de placa mais completa da internet.",
+          "bg_image": "",
+          "placeholder": "Ex: HUF-8282"
+        }
+      },
+      {
+        "type": "Feature",
+        "props": {
+          "id": "Feature-246a62db-4f09-440c-9132-8134e7f41978",
+          "title": "Saiba todas as informações importantes sobre o veículo",
+          "features": [
+            {
+              "icon": "IconCarSuv",
+              "title": "Informações do veículo",
+              "description": "Consiga informações sobre a cor, modelo, categoria e muito mais sobre o veículo."
+            },
+            {
+              "icon": "IconTable",
+              "title": "Tabela FIPE",
+              "description": "Utilize as informações da tabela FIPE para consultar o valor de mercado do veículo."
+            },
+            {
+              "icon": "IconUserDollar",
+              "title": "Situação Financeira",
+              "description": "Consulte a situação financeira do veículo para tomar a melhor decisão."
+            }
+          ],
+          "description": "Consiga informações sobre a cor, modelo, categoria e muito mais sobre o veículo."
+        }
+      }
+    ]
+  },
+  "faq": {
+    "root": {
+      "props": {
+        "slug": "/perguntas-frequentes",
+        "title": "Perguntas Frequentes",
+        "description": "Encontre respostas rápidas e precisas para suas dúvidas sobre consultas de placas de veículos. Tire suas dúvidas agora!"
+      }
+    },
+    "zones": {},
+    "content": [
+      {
+        "type": "Faq",
+        "props": {
+          "id": "Faq-03700e4d-a241-46df-8a44-3461f44c5a52",
+          "items": [
+            {
+              "answer": "Somos uma empresa que oferece serviços de consulta de placas automotivas, auxiliando o consumidor a tomar a melhor decisão antes de comprar o seu próximo veículo.",
+              "question": "O que é a BuscaSim?"
+            },
+            {
+              "answer": "Nós oferecemos uma consulta grátis com informações mais simples sobre o veículo, por exemplo cor, marca, modelo, ano etc. Caso precise de informações mais detalhadas, oferecemos uma consulta premium com todas as informações.",
+              "question": "A consulta é grátis?"
+            },
+            {
+              "answer": "Nós armazenamos um histórico das suas consultas premium, para você consultar e comparar as informações dos veículos quando quiser.",
+              "question": "Vou poder consultar o meu histórico de consultas?"
+            }
+          ],
+          "title": "Perguntas Frequentes"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "root": {
+      "props": {
+        "slug": "/contato",
+        "title": "Contato",
+        "description": "Entre em contato conosco para mais informações sobre consultas de placas de veículos. Estamos aqui para ajudar!"
+      }
+    },
+    "zones": {},
+    "content": [
+      {
+        "type": "Contact",
+        "props": {
+          "id": "Contact-bb4b3f85-e051-495b-9bc1-7793e51d94ae",
+          "end": "Qualquer dúvida, crítica ou sugestão nos mande uma mensagem que vamos responder todas as suas dúvidas.",
+          "intro": "Clique no botão abaixo para enviar a sua mensagem para a equipe de suporte. Entraremos em contato em breve.",
+          "title": "Ainda está com dúvidas?",
+          "textButtom": "Suporte"
+        }
+      }
+    ]
+  },
+  "privacy-policy": {
+    "root": {
+      "props": {
+        "slug": "/politica-de-privacidade",
+        "title": "Política de Privacidade",
+        "description": "Leia nossa política de privacidade para entender como protegemos suas informações durante consultas de placas de veículos."
+      }
+    },
+    "zones": {
+      "Block-5e1b0567-2f3b-45c2-8706-3ad821af70a9:content-block": [
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-9ebb2a5b-63a7-467c-b282-21daa4f29036",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-78d7e475-3ca7-4e77-a1fc-a38e7555e571",
+            "size": "sm",
+            "text": "Última atualização: 14/11/2023",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-724e7706-7136-4ee3-b667-e1171735a669",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-fcb89baf-d8b1-499c-9355-c029b745872e",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 1,
+            "title": "POLÍTICA DE PRIVACIDADE",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-74d4d0a6-75e4-433b-92d2-69b892460715",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-422b8879-a195-42e0-a9d0-246f6d09f294",
+            "size": "md",
+            "text": "VISÃO GERAL",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-37092808-c603-40c3-9303-86ab3621034f",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-64d30b8f-d4f0-4d20-9314-ec42d2c05059",
+            "size": "md",
+            "text": "O presente documento configura a Política de Privacidade (“Política de Privacidade”) da Plataforma Digital denominada BUSCASIM, de forma que estabelece as regras referentes à coleta, as finalidades, ao armazenamento, à proteção e ao compartilhamento de todos os dados pessoais que venham a ser coletados dos Usuários que venham a utilizar quaisquer dos serviços oferecidos pela Plataforma Digital, que foi desenvolvida pela Rvs Comercio e Servicos Digitais LTDA Cadastrada no CNPJ sob n. 428494210001-31, com sede na Avenida Eng Luiz Carlos Berrini, 1748, Complemento: Conj 1710 Bairro: Cidade Monções CEP: 04571-000 na cidade de São Paulo/SP.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-29b47bca-db40-4af7-b8ba-c7532d0ee285",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-e426830e-866a-40e7-8168-a30429fa5cc3",
+            "size": "md",
+            "text": "A BUSCASIM SERVIÇOS DE INTERNET LTDA se reserva no direito de criar produtos novos e/ou funcionalidades que sejam úteis à Plataforma Digital. À exceção de disposição contrária, o presente documento será utilizado e aplicado aos novos produtos ou funcionalidades que forem posteriormente desenvolvidos.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-0f47a97e-260c-4c90-998d-c74e14798466",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-be90978f-f7e4-4084-ad72-8873e065447c",
+            "size": "md",
+            "text": "Contudo, se houver a necessidade que implique em modificações na forma como se dá a coleta, a finalidade, o armazenamento, a proteção e o compartilhamento de dados pessoais, o Usuário será informado, de maneira prévia, por meio de uma nova política de privacidade, de forma que a continuidade da utilização dos serviços da Plataforma, será interpretada como seu consentimento aos novos termos apresentados. Ao utilizar de quaisquer formas os produtos oferecidos por esta Plataforma Digital, o Usuário concorda com a presente Política de Privacidade, que se aplica a todas as relações envolvendo a BUSCASIM e seus Usuários. Caso o mesmo discorde dos termos da presente Política de Privacidade, não deverá usar a presente Plataforma e nenhuma de suas ferramentas.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-c0e17153-a513-4503-9011-4fb0c1372a3a",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-1df658d6-75db-468c-8793-e84587b16431",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "ITENS DESTA POLÍTICA",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-db1fd60b-2bb7-4c5d-9b83-f70908b0c29f",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "List",
+          "props": {
+            "id": "List-2047be20-442c-4096-bb2e-346f51b89b3b",
+            "size": "md",
+            "type": "Ordered",
+            "iteins": [
+              {
+                "item": "OBJETO.........................................................................................................................................................................."
+              },
+              {
+                "item": "INFORMAÇÕES DE ACESSO........................................................................................................................................."
+              },
+              {
+                "item": "QUANDO O USUÁRIO CRIA UMA CONTA NA BUSCASIM............................................................................................"
+              },
+              {
+                "item": "QUANDO O USUÁRIO PROCURA SERVIÇOS ADVOCATÍCIOS NO SERVIÇO BUSCASIM................................................."
+              },
+              {
+                "item": "INFORMAÇÕES DE TERCEIROS INSERIDAS PELO USUÁRIO NA PLATAFORMA......................................................."
+              },
+              {
+                "item": "FONTES OFICIAIS.........................................................................................................................................................."
+              },
+              {
+                "item": "TRATAMENTO DOS DADOS PESSOAIS E FINALIDADES............................................................................................"
+              },
+              {
+                "item": "CUMPRIMENTO CONTRATUAL..................................................................................................................................."
+              },
+              {
+                "item": "ATENDIMENTO DA LEGISLAÇÃO PARA PROTEÇÃO DE DADOS..............................................................................."
+              },
+              {
+                "item": "SERVIÇOS PERSONALIZADOS PARA O USUÁRIO...................................................................................................."
+              },
+              {
+                "item": "COMUNICAÇÃO..........................................................................................................................................................."
+              },
+              {
+                "item": "OFERTAS E PUBLICIDADE........................................................................................................................................."
+              },
+              {
+                "item": "DESEMPENHO E SEGURANÇA..................................................................................................................................."
+              },
+              {
+                "item": "COMPARTILHAMENTO DAS INFORMAÇÕES COM TERCEIROS.............................................................................."
+              },
+              {
+                "item": "ZELO PELA SEGURANÇA DAS INFORMAÇÕES........................................................................................................."
+              },
+              {
+                "item": "SERVIÇOS DE TERCEIROS........................................................................................................................................."
+              },
+              {
+                "item": "ALTERAÇÃO DA POLÍTICA DE PRIVACIDADE.........................................................................................................."
+              },
+              {
+                "item": "CONTATOS E DÚVIDAS.............................................................................................................................................."
+              }
+            ]
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-98cdfa3e-b093-44ba-b3c1-72a8ac17356d",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-d968645d-8827-4936-9613-6202139b8a49",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 1,
+            "title": "1. OBJETO",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-718f2c02-cea1-46d5-aef7-65172a619d42",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-05abe8e0-29d5-4d2e-9e78-7b28d82c7d47",
+            "size": "md",
+            "text": "1.1. A Política de Privacidade em conjunto com os Termos de Uso da Plataforma, tem como finalidade publicar de forma clara e objetiva o funcionamento da presente plataforma, nos termos do exigido pela Lei do Marco Civil da Internet (Lei n. 12.965/2014) e pela Lei Geral de Proteção de Dados (Lei n. 13.709/2018).",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ab94b921-8199-48b1-9d4e-cb3d1057395c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-d8929715-4430-421f-b463-1a6fd785d6c7",
+            "size": "md",
+            "text": "1.2. A referida Política de Privacidade tem por objeto específico: as informações e dados pessoais coletados pela BUSCASIM; a forma de tratamento destes dados, os possíveis compartilhamentos de dados; as finalidades para que determinados dados tenham sido coletados e os direitos do Usuário em relação aos dados pessoais que por ele forem fornecidos ou coletados pelo diretamente pela plataforma da BUSCASIM.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-bd725d76-f457-4e93-bb74-d52ecfe5bac3",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-440fed0a-cb44-4144-892e-2418bf2c37ef",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "2. INFORMAÇÕES DE ACESSO",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-132367a4-1a79-46aa-8e67-da5b4d055c29",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-f219b60c-ff03-4b6f-9ace-16db99e7e1ea",
+            "size": "md",
+            "text": "2.1. Somados aos dos dados pessoais e informações fornecidas de forma voluntária pelo usuário, a BUSCASIM, por meio de cookies e tecnologias similares, inclusive de terceiros, também coletará e armazenará informações que são recebidas de forma sincronizada e automática a cada interação do Usuário com a Plataforma, como por exemplo: IP, informações sobre interações com a Plataforma, navegador utilizado, UDID, histórico de navegação e IMEI.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-c3a2519e-46a7-41bb-b8d8-db550daffbb5",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-0b96d8f6-5549-4227-b9bd-8d6fbe1eba98",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "3. QUANDO O USUÁRIO CRIA UMA CONTA NA BUSCASIM",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-7e237226-782c-4422-b2cc-e4b87ec0652c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-c803cad8-2a8f-48e7-8df2-d3368c05d75c",
+            "size": "md",
+            "text": "3.1. A utilização dos serviços fornecidos pela BUSCASIM somente está disponível para os Usuários que estiverem cadastrados na Plataforma. Para o cadastro, serão necessárias as seguintes informações, para fins de identificação e individualização dos Usuários na Plataforma: Nome, CPF, e-mail, profissão, endereço e senha de acesso.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-9c27cc7d-304c-45a8-b85a-bfaf9aa39db2",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-7dbd3a43-3b09-493d-8eaf-92eb21277f95",
+            "size": "md",
+            "text": "3.2. O Usuário tem o direito de alterar e atualizar seus dados a qualquer momento, autorizando a BUSCASIM a manter o registro das informações e dados previamente fornecidos, por motivos de segurança e controle de acessos, pelo período mínimo de 10 anos.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-0b6ed9bb-4dc8-4df8-a5e5-b62a081e1d92",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-9876e9fd-7d1e-4206-a257-86e74621e970",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "4. QUANDO O USUÁRIO PROCURA SERVIÇOS NO BUSCASIM",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-e80baa6b-4187-44b7-bba1-bd47186aca89",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-baf492ce-b0a6-4f6d-878f-cd7be1e02742",
+            "size": "md",
+            "text": "4.1. A BUSCASIM permite, a qualquer pessoa interessada, buscar advogados cadastrados em seu banco de dados a fim de obter atendimento especializado sobre a sua pretensão. Contudo, para tanto, a pessoa interessada deverá realizar uma avaliação prévia do seu caso, por meio de sistema que se utiliza de inteligência artificial, a fim de que a Plataforma possa calcular a probabilidade de êxito da respectiva pretensão jurídica e informá-la ao profissional interessado.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-255ac2ee-8d9e-41ba-87ee-9e2607af493c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-0ffae536-04a7-41f9-ae88-24b679f60e32",
+            "size": "md",
+            "text": "5. Tendo em vista o teor pessoal das informações, ao utilizar a Plataforma, o Usuário cadastrado declara expressamente que as pessoas, cujas informações forem inseridas, autorizaram previamente o uso de tais dados, bem como estão cientes e concordam com as disposições desta Política de Dados.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-da56d9ad-1a72-46b1-a18e-6935e71b4786",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-3443263f-61f8-4beb-8007-49bb442834fb",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "6. FONTES OFICIAIS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ea8c73fc-832a-407d-b077-c13f701e9364",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-ce815355-27fa-485d-82d0-557542f514b2",
+            "size": "md",
+            "text": "6.1. Dados pessoais são extraídos pela BUSCASIM, de forma automatizada, de fontes publicamente disponíveis, como fontes do governo, diários oficiais, dados oriundos de tribunais referentes a processos, informações de salas de imprensa de órgãos públicos e legislação, a fim de ampliar o acesso a esse conteúdo por parte dos seus Usuários.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ce380300-154f-474d-bbf8-e219e33808c9",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-753756ee-088d-44ca-a2fd-21bf9597e3b7",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "7. TRATAMENTO DOS DADOS PESSOAIS E FINALIDADES",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-29c5a721-6fa8-4c32-838b-3a7b83a72555",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-c90bdafa-2175-43ee-b556-7e677e335134",
+            "size": "md",
+            "text": "7.1. Em razão da interação do Usuário com a Plataforma, a BUSCASIM coleta e armazena uma série de Informações, conforme descrito acima, seja pela necessidade de cumprimento da legislação, seja em relação ao cumprimento de suas obrigações contratuais ou ainda em decorrência de medidas de segurança adotadas.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-1e0f18a1-af8e-4e56-9d9c-1b1e05d9f82b",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-9eb77238-ee14-4d02-b8d3-50a922664a93",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "8. CUMPRIMENTO CONTRATUAL",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-258834a3-8119-4f36-8f19-35e6424735b6",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-e3eaf3d5-c567-4f33-8a6a-3ee8d276dc91",
+            "size": "md",
+            "text": "8.1. Os dados e informações de terceiros são processadas e tratadas pela BUSCASIM com o interesse legítimo de prestar a cada Usuário os serviços pelos quais o mesmo contratou a sua assinatura da Plataforma.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-39e3b0cc-b3fc-43ff-a5c6-31ef9fa4a2a9",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-1e4914e6-a753-489b-b25e-64906d773ded",
+            "size": "md",
+            "text": "8.2. A Plataforma utiliza das informações e dados de terceiros a fim de alimentar a ferramenta destinada à leitura automática de documentos, que atuam por meio de inteligência artificial com a finalidade de realizar análises sobre direitos decorrentes das informações contratuais fornecidas.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d2781417-76b7-486a-b424-69e7b8825cb3",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-a67ce6bb-4a18-43c4-8f9e-e12e1642d6a3",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 1,
+            "title": "ITENS DESTA POLÍTICA",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-fdab4edc-8740-4c61-96b2-12ab64466316",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-0bdd23bc-13b5-4bac-a5f6-822dd68615fc",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "9. ATENDIMENTO DA LEGISLAÇÃO PARA PROTEÇÃO DE DADOS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-945597e3-db79-4a30-b258-04c8273b1bb5",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-63172239-8eb9-4239-96ce-18cc0afa487b",
+            "size": "md",
+            "text": "9.1. A BUSCASIM também realiza o tratamento de dados pessoais, a partir da coleta e do armazenamento dos mesmos, fornecidos no cadastro e demais informações inseridas pelo Usuário, de forma a estabelecer um controle adequado de acesso de todos os Usuários, observando assim a legislação que estabelece as diretrizes e normas à proteção dos dados.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-33e6def8-d722-4726-8c2e-451ff1af0d28",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-33d089eb-cb9e-4fa5-8463-0f8dbef70f75",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "10. SERVIÇOS PERSONALIZADOS PARA O USUÁRIO",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-b223171c-6d30-46db-8c87-cb19cdf5e0c9",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-a2157f30-ba1d-44f3-892a-8f42654edbd9",
+            "size": "md",
+            "text": "10.1. As informações coletadas, processadas e armazenadas, com destaque àqueles dados que são coletados de forma automática, destinam-se a possibilitar que a BUSCASIM ofereça serviços personalizados e melhores ao Usuário dentro da Plataforma. As informações podem ainda ser destinadas à solução de problemas, realização de testes e melhorias nas ferramentas oferecidas no site.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-f32499a0-2618-4e85-babd-5ba3234f02d0",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-055891f4-e84c-471f-b670-e150e6f4178b",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "11. COMUNICAÇÃO",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-209f8c50-6051-4701-8f20-2f139ea3cd4a",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-5b6487fe-1c28-4955-bf61-b675717199ff",
+            "size": "md",
+            "text": "11.1. As informações de cadastro podem também ser utilizadas para possibilitar a comunicação entre a BUSCASIM e o seu Usuário cadastrado. Destaca-se que a Plataforma é soberana para elencar quais situações são necessárias ao contato com o usuário, que deverá ocorrer via contatos cadastrados pelo Usuário como endereço de e-mail e WhatsApp.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d074e93d-abca-4d20-ad51-6b01d3fdda8b",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-d872f1d6-487a-4a4a-b1e7-e2fff17a13fa",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "12. OFERTAS E PUBLICIDADE",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-eda5a587-2a09-443e-8c77-8b668911f679",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-9ea4d747-a5a6-4c4a-8417-5be407076987",
+            "size": "md",
+            "text": "12.1. Os dados fornecidos mediante o cadastro na Plataforma poderão ser utilizados com a finalidade de oferecer serviços, novidades, ferramentas, oportunidades e demais assuntos de possível interesse do Usuário, desde que com o seu consentimento prévio.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-f5d6208e-a5be-4a77-b7a3-2ff5ecb69393",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-677ad0e9-9717-4aef-a793-3906c8fd0c62",
+            "size": "md",
+            "text": "12.2. Determinadas ofertas poderão ser adequadas ainda à localização geográfica do Usuário, por meio de algoritmos da BUSCASIM, conforme dados cadastrais ou ainda por meio do serviço Google AdSense, cujas informações sobre como o Google trata os dados coletados na Plataforma podem ser conferidas em www.google.com/policies/technologies/partner-sites/.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-e9eb6ab4-d2a5-4b07-bf84-31d87e28f6e0",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-9828e7d2-d2f8-4afa-95b5-4c06c5dab009",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "13. DESEMPENHO E SEGURANÇA",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-618ebddd-b90b-41be-957e-9259a1abaef4",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-84ccd7ec-79cb-40ca-b290-fad34635c497",
+            "size": "md",
+            "text": "13.1. As informações acerca da utilização da Plataforma por cada usuário, de forma individualizada, dentre outros aspectos, também apresentam a finalidade de permitir que a BUSCASIM assimile a maneira com que o Usuário interage com a Plataforma, garantindo a devida funcionalidade e evolução em busca do aprimoramento de suas ferramentas. Além disso, a BUSCASIM utiliza determinados dados e informações no combate direto e diário a possíveis fraudes e atividades ilegais, aprimorando continuamente seus elementos de segurança.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-cfa5be63-3728-479d-8547-6aac90c40a6a",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-7230d8c3-66ff-4a21-be5a-703dfc0ea6ce",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "14. COMPARTILHAMENTO DAS INFORMAÇÕES COM TERCEIROS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-71139b8e-e71f-4559-8356-582c967fc880",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-52b262bd-fa18-4e42-9060-019da02445b4",
+            "size": "md",
+            "text": "14.1. O funcionamento periódico e regular de algumas das ferramentas oferecidas pela BUSCASIM depende do compartilhamento de dados e Informações com terceiros, conforme situações descritas a seguir:",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-6000720b-891f-48ff-9397-3171b21b3f2e",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-947e0b5c-5e58-464d-8f05-b11dcbc1b63e",
+            "size": "md",
+            "text": "14.1.1. ADVOGADOS E ESCRITÓRIOS DE ADVOCACIA DEVIDAMENTE CADASTRADOS: A BUSCASIM, em casos onde os usuários estiverem interessados em contratar serviços, pode vir a compartilhar dados pessoais, com advogados e/ou escritórios de advocacia previamente cadastrados na Plataforma, desde que com consentimento prévio do titular, a fim de que sejam realizados procedimentos preliminares indispensáveis a celebração de contrato de prestação de serviços advocatícios/jurídicos.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-196045b1-567d-42fc-be5a-4c549e5c999e",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-63d57416-1015-4a70-b5c5-f056029b9019",
+            "size": "md",
+            "text": "14.1.2. OBSERV NCIA DAS OBRIGAÇÕES LEGAIS OU REQUERIMENTOS DE AUTORIDADES: As Informações dos Usuários poderão ser compartilhadas com Autoridades e Órgãos públicos em caso de ordem judicial que obrigue a BUSCASIM ao fornecimento de tais dados ou, em casos específicos quando a BUSCASIM entender que o tal procedimento é imprescindível ao cumprimento de quaisquer obrigações decorrentes da legislação.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-201c840a-0bf9-4d3b-a3d5-0646e54e3128",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-646b4057-55c4-4d4a-8d3d-554c6c43d549",
+            "size": "md",
+            "text": "14.1.3. DIREITOS DOS USUÁRIOS: A BUSCASIM adotará medidas técnicas e organizacionais apropriadas para cumprir as suas obrigações em relação aos direitos dos Usuários enquanto titulares dos dados pessoais, nos termos da Lei Geral de Proteção de Dados (Lei n. 13.709/2018). Nesse sentido, a BUSCASIM se compromete a viabilizar da melhor forma possível os seus direitos, tais quais previstos em lei, quais sejam: Confirmação: direito a ser informado sobre a existência de tratamento. Acesso: direito de solicitar o acesso aos dados pessoais tratados pela BUSCASIM. Correção: direito de solicitar a alteração dos dados pessoais tratados pela BUSCASIM sempre que estiverem incompletos, inexatos ou desatualizados. Restrição: direito de solicitar a anonimização, o bloqueio ou a eliminação de dados desnecessários, excessivos ou tratados pela BUSCASIM que, eventualmente, estejam em desconformidade com a legislação de proteção de dados pessoais. Portabilidade: direito de solicitar a transmissão dos dados tratados pela BUSCASIM para outro fornecedor de serviços. Eliminação: direito de solicitar a eliminação dos dados pessoais tratados pela BUSCASIM com o consentimento do Usuário. Informação: direito de ser informado sobre as entidades públicas e privadas com as quais a BUSCASIM compartilhou dados, sobre a possibilidade de não fornecer consentimento e sobre as consequências desta negativa. Revogação do consentimento: direito de revogar o consentimento a qualquer momento, através de manifestação expressa, por procedimento gratuito e facilitado. Revisão às decisões automatizadas: possibilidade de revisão de decisões tomadas pela BUSCASIM unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-8b53e647-071e-46fd-9328-f14b15dd8762",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-62a4e2eb-0869-4cfa-a041-5a9fe3404595",
+            "size": "md",
+            "text": "14.2. Caso queira exercer algum dos direitos previstos nesta Política de Privacidade ou na legislação aplicável, ou tenha dúvidas sobre este documento e as práticas nele descritas, você deverá entrar em contato com a pessoa encarregada na BUSCASIM pela comunicação com titulares de dados pessoais, através do email: contato@BUSCASIM.com.br",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-3c277d76-f96a-4179-89f9-c3896d418aab",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-2a67592b-8bd2-4bb8-b448-98b07e30b7b0",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "15. ZELO PELA SEGURANÇA DAS INFORMAÇÕES",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-f159279d-bcd7-4086-8841-6167a2f63e48",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-3dec339f-4b61-4d46-84bd-988efd073f6e",
+            "size": "md",
+            "text": "15.1. A BUSCASIM trabalha incessantemente pela segurança das Informações de seus Usuários, utilizando-se de todos os esforços disponíveis na defesa e proteção dos dados pessoais dos seus Usuários ou de qualquer um que venha a utilizar nossos serviços, por meio de práticas e serviços de segurança atualizados e eficientes.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-a26bfdfc-0ee9-450c-9a31-0e2a79532c5d",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-d1c68f26-43f0-4a0f-971f-23933087804b",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "16. SERVIÇOS DE TERCEIROS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-380e9258-03ca-4faf-ad67-100fe096f486",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-4a599207-cb5e-4a19-9fcc-dbaa96ada58d",
+            "size": "md",
+            "text": "16.1. A Plataforma e os Serviços da BUSCASIM poderão conter links para produtos de parceiros, os quais possuem termos e políticas próprias. Ou seja, esta Política se limita à Plataforma e aos Serviços oferecidos pela própria BUSCASIM. Embora a BUSCASIM busque constantemente firmar relações com parceiros confiáveis, a BUSCASIM não se responsabiliza pelas práticas de tratamento de dados pessoais realizadas exclusivamente por esses terceiros. Por essa razão, o Usuário deve ter pleno conhecimento dos termos e políticas de privacidade de terceiros externos à Plataforma antes de fornecer qualquer dado pessoal. Em relação aos dados obtidos de fontes oficiais, considerando que sua coleta e atualização são realizadas de forma automatizada e sem qualquer ingerência da BUSCASIM quanto à sua precisão, a BUSCASIM não se responsabiliza por eventuais inexatidões, omissões ou erros em relação a esses dados.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-09835ae3-5ad9-436d-890d-0630de002508",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-49fdd2c8-711a-450c-8a59-8bb32c80d2dc",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "17. ALTERAÇÃO DA POLÍTICA DE PRIVACIDADE",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-3590fec1-f21d-4965-9fac-7a29b3467c22",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-ecb134c9-30b7-42f7-b92e-11ba54d92dac",
+            "size": "md",
+            "text": "17.1. A BUSCASIM, como já informado anteriormente, poderá alterar esta Política de Privacidade a qualquer momento. O Usuário poderá não concordar com os novos termos, hipótese na qual o acesso à Plataforma será bloqueado a partir da entrada em vigor da nova redação.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-5f9cff6b-6a28-4899-92dc-a0d37698dc41",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-4aa605be-ce1a-488a-9805-8ee526a7594c",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "18. CONTATOS E DÚVIDAS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-3d501e52-bd69-4a52-9316-1b650cc410cd",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-c987324d-7704-474e-bc31-707d3817d2e8",
+            "size": "md",
+            "text": "18.1. Caso o Usuário tenha qualquer dúvida referente a esta Política de Privacidade ou, ainda, pretender realizar qualquer solicitação em relação às suas Informações, deverá entrar em contato com a BUSCASIM, através do email: contato@BUSCASIM.com.br",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-6d3e0ea1-b251-49e2-ae0a-a8801c6f3fba",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-18223575-91c6-4ca4-8657-9fb804c8eb71",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "order": 2,
+            "title": "GLOSSÁRIO",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-b6c0960a-0d79-4af9-a847-647976f3f29d",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-fc925e91-ef50-4f57-9195-5a9b265974a2",
+            "size": "md",
+            "text": "CDC: Código de Defesa do Consumidor VOCÊ: usuário da BUSCASIM que se enquadra no art. 2º do CDC. BUSCASIM: Rvs Comercio e Servicos Digitais LTDA Cadastrada no CNPJ sob n. 428494210001-31, com sede na Avenida Eng Luiz Carlos Berrini, 1748,Complemento: Conj 1710 Bairro: Cidade Monções CEP: 04571-000 na cidade de São Paulo/SP.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ec6f6196-7187-45ef-a096-aad5aacb977c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-a77d8406-4c01-4559-991e-88ce456b946b",
+            "size": "md",
+            "text": "FAQ: do inglês Frequently Asked Questions, concentra as respostas sobre as dúvidas mais comuns dos clientes.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": "400",
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-2671f433-6882-427a-ae1d-2e496d303f0a",
+            "size": "72px"
+          }
+        }
+      ]
+    },
+    "content": [
+      {
+        "type": "Block",
+        "props": {
+          "id": "Block-5e1b0567-2f3b-45c2-8706-3ad821af70a9",
+          "background": {
+            "hex": "#0000"
+          }
+        }
+      }
+    ]
+  },
+  "thanks": {
+    "root": {
+      "props": {
+        "slug": "/muito-obrigado",
+        "title": "Muito Obrigado",
+        "description": "Agradecemos por escolher nossos serviços para consultas de placas de veículos. Seu suporte é muito valioso para nós!"
+      }
+    },
+    "zones": {},
+    "content": [
+      {
+        "type": "VerticalSpace",
+        "props": {
+          "id": "VerticalSpace-59e542bf-2835-4220-a94f-762bac9b698b",
+          "size": "88px"
+        }
+      },
+      {
+        "type": "ThankYou",
+        "props": {
+          "id": "ThankYou-0ceab117-5839-458a-9fd6-636ffee4d878",
+          "title": "Obrigado!",
+          "subtitle": "Parabéns! Você acabou de adquir o seu relatório Premium.",
+          "background": {
+            "hex": "#0000"
+          },
+          "buttonText": "Ver meu relatório",
+          "description": "Você vai poder consultar esse relatório quando quiser no menu Minhas Consultas"
+        }
+      },
+      {
+        "type": "VerticalSpace",
+        "props": {
+          "id": "VerticalSpace-514c3ed7-3cdf-447e-971e-178a27864ed8",
+          "size": "88px"
+        }
+      }
+    ]
+  },
+  "terms": {
+    "root": {
+      "props": {
+        "slug": "/termos-de-uso",
+        "title": "Termos De Uso",
+        "description": "Leia nossos termos de uso antes de utilizar nossos serviços de consulta de placas de veículos. Proteja-se, conheça seus direitos!"
+      }
+    },
+    "zones": {
+      "Block-5d28fdf1-a107-487a-b228-128b24d59a53:content-block": [
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-9cce5bf5-6ece-45d1-b053-805d37ddfc6f",
+            "align": "center",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 1,
+            "title": "TERMOS DE USO",
+            "padding": 29,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-e0897eff-1f51-4854-92e9-126ce66c442e",
+            "size": "md",
+            "text": "Versão atualizada em: 17 de Mar. de 2024 12:00",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ecfca70c-8886-41cf-983e-7e94306970f8",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-0d8f0610-3f5d-40a6-b16b-35f757681dbb",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "CONSIDERAÇÕES INICIAIS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-0fd52f6b-cdf0-4f97-9d31-1ac6d563f4b0",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-5c268682-db2a-4a0c-9165-06bb515a52fc",
+            "size": "md",
+            "text": "Estes são os Termos de Uso (“Termos”) que determinam as finalidades, a utilização e os limites de todo e qualquer acesso à Plataforma da BUSCASIM, por qualquer pessoa que se utilize de nossas ferramentas de Software como Serviço, na qualidade de “USUÁRIO”.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-77c760d3-b643-479b-b779-82ca2300d25b",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-61e6b59f-527a-4e55-8bda-47d42a5afd36",
+            "size": "md",
+            "text": "Ao aceitar os Termos e efetuar o cadastro, você, na qualidade de USUÁRIO, concorda com a íntegra dos Termos aqui dispostos. Caso não concorde, você não deverá realizar o cadastro em nossa Plataforma. Além disso, após o cadastro, o USUÁRIO não poderá alegar ignorância, inclusive quanto ao teor deste documento.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-4c8541aa-bc5e-4d59-be27-4e524998c50c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-20a1ba45-1ff1-449e-8ef3-8705f9180386",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "1. CONDIÇÕES GERAIS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-64ccef71-c064-47c0-9300-7bf752df5ef8",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-c206e708-8886-4a64-ba2b-a35680fb5124",
+            "size": "md",
+            "text": "1.1. O Site e a Plataforma foram desenvolvidos e são operados exclusivamente pela BUSCASIM. Portanto, é imprescindível que o USUÁRIO siga nossos Termos e conheça nossa Política de Privacidade para navegar na Plataforma e utilizar as ferramentas disponíveis, uma vez que determinadas atividades implicam no tratamento dos dados pessoais do USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-a6979980-5e9a-4125-b65f-aef33bef28fb",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-bc84a30a-dac7-41b5-82fc-9ed33f3064e1",
+            "size": "md",
+            "text": "1.3. A BUSCASIM se reserva o direito de modificar e alterar estes Termos a qualquer momento. Caso ocorra qualquer alteração nos Termos, o USUÁRIO será avisado para tomar ciência da atualização. Se o USUÁRIO discordar da nova versão dos Termos, deverá solicitar o encerramento da nossa parceria.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-3ee1134f-4be2-4e26-b780-6bc08167e340",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-16fb9185-5dd9-4605-8c17-6326d083ce9c",
+            "size": "md",
+            "text": "1.3.1. Se o USUÁRIO não solicitar o encerramento e permanecer utilizando a Plataforma mesmo após o nosso Aviso de Atualização e permanecer utilizando a Plataforma de forma contínua, entenderemos que o USUÁRIO aceitou as alterações e deseja continuar utilizando nossos serviços.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-0885c89f-ef3c-42a6-9f2a-25d7311a803c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-d256df74-a17e-4a38-b5a8-2546af4c9d38",
+            "size": "md",
+            "text": "1.4. A BUSCASIM não estimula ou realiza qualquer forma de captação de causa ou clientela para serviços adversos.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-797778b0-91d7-4d30-9563-d5602d72cd99",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-951de97e-07bd-4156-b4bc-e43e21afcc99",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "2. CADASTRO",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-97467df0-149d-4fcd-bbad-2692ac5a8658",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-72f06742-9e57-42b9-9a85-072db2213ec4",
+            "size": "md",
+            "text": "2.1. O acesso e a utilização de quaisquer serviços da BUSCASIM exigirão a realização de um cadastro prévio, adesão ao presente Termo, escolha de um dos planos ofertados e, o respectivo pagamento pelo uso das ferramentas disponibilizadas.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-5098c3f3-5ca5-4ca2-978e-4f7256198cd2",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-aebfc5d6-a4c6-4926-8977-c1aae0d86b79",
+            "size": "md",
+            "text": "2.2. Para o cadastro, os seguintes dados serão requeridos:",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-9e1c72bb-2412-482f-ba57-c9026d88dc3d",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "List",
+          "props": {
+            "id": "List-2f116aae-fc94-4453-9231-f828304340ef",
+            "size": "md",
+            "type": "unordered",
+            "iteins": [
+              {
+                "item": "Nome e sobrenome"
+              },
+              {
+                "item": "E-mail"
+              },
+              {
+                "item": "Endereço"
+              },
+              {
+                "item": "Cidade de residência"
+              },
+              {
+                "item": "Profissão"
+              },
+              {
+                "item": "Telefone de contato"
+              },
+              {
+                "item": "CPF"
+              },
+              {
+                "item": "Data de nascimento"
+              },
+              {
+                "item": "Sexo"
+              },
+              {
+                "item": "Nome do USUÁRIO (nome pelo qual o perfil do USUÁRIO poderá ser identificado na Plataforma)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-7611ac23-26cb-4f34-b010-94a665abd98b",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-420d104a-2648-41a0-9a97-8afaaa113c89",
+            "size": "md",
+            "text": "2.4. Havendo algum cadastro via convênio ou parceria da BUSCASIM com alguma entidade ou organização, será exigido no preenchimento do cadastro a apresentação do “cupom” ou “convênio”, para o fim de obtenção do eventual desconto ao USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ea81d81e-d83e-4f1b-abab-403613505d4a",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-d234647f-02ff-4882-87e6-2a350e0dcb90",
+            "size": "md",
+            "text": "2.4.1. Todos os Cupons de desconto e/ou Convênios que a BUSCASIM possa vir a criar terão benefícios e critérios de cobranças próprios, não ficando adstrito às informações dos planos padrões de assinatura disponíveis na página inicial da BUSCASIM. Todas informações do cupom/convênio serão disponibilizadas no momento do cadastro para o USUÁRIO, que poderá escolher em assinar ou não o serviço.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-421060f0-98e9-44bf-af81-afca2ca6ca36",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-7806b33f-25aa-4d2a-bb5d-5266b2d95709",
+            "size": "md",
+            "text": "2.4.2. Os Convênios terão validade enquanto perdurar a relação entre a BUSCASIM e a instituição parceira. Caso o encerramento do Convênio ocorra no decorrer da nossa relação, o USUÁRIO será previamente informado.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-76aa8f39-7c92-48cd-90d2-2b775be2f49f",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-21858fd6-94bd-400c-a108-c15c6506ea53",
+            "size": "md",
+            "text": "2.4.3. Os Cupons terão validade de acordo com cada campanha publicitária, seja diretamente pela BUSCASIM ou através de algum parceiro.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d120c65e-b8ba-42b4-a5cf-a324c873175e",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-4dce96fe-0c59-4b87-9cd7-7ab299bf6a0c",
+            "size": "md",
+            "text": "2.4.4. Via de regra, os cupons de desconto serão individuais e somente poderão ser aplicados uma única vez, não sendo cumulativos com outros descontos.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-a418e46a-b507-4333-858e-c7be76cc30cd",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-fbb4c381-572a-41b5-86de-73f79c783e27",
+            "size": "md",
+            "text": "2.5. Em determinadas situações, os serviços oferecidos na Plataforma poderão requerer informações adicionais ao USUÁRIO, seja para melhor identificá-los, conduzir diligências internas ou ainda oferecer serviços especializados e garantir a melhor experiência ao USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-b96e1cfc-d1ef-4896-8efe-1257d9615c14",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-1835c49c-9d24-44d1-b8db-be9d4a9332f0",
+            "size": "md",
+            "text": "2.6. Os dados pessoais informados pelo USUÁRIO, bem como os dados disponibilizados durante o uso dos serviços, serão tratados pela BUSCASIM estritamente em conformidade com a sua Política de Privacidade.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-a04f764d-4ab1-43db-9958-cf7009c280b4",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-e75ce17c-f002-4659-b82d-454a22c13d91",
+            "size": "md",
+            "text": "2.7. Ao se cadastrar na Plataforma, o USUÁRIO deverá informar dados completos, recentes e válidos, sendo de sua exclusiva responsabilidade manter as referidas informações atualizadas.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-4fff4216-555f-4d6c-beab-d4f9a84ae48e",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-3bca696b-3ead-4efc-b3d5-e021da572348",
+            "size": "md",
+            "text": "2.8. O USUÁRIO se compromete a não informar seus dados cadastrais e/ou de acesso à Plataforma a terceiros, responsabilizando-se integralmente pelo uso que deles seja feito.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-daa4967d-0736-41e1-a002-ec7028c40ae7",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-508bf33d-3fc8-4fe6-a43d-fbb4b3423ae0",
+            "size": "md",
+            "text": "2.9. A BUSCASIM poderá se valer de todas as formas lícitas para verificar, a qualquer tempo, se as informações que o USUÁRIO forneceu são verdadeiras. Se for constatado que as informações são de alguma forma incompletas, imprecisas ou falsas, o USUÁRIO poderá ter o seu cadastro suspenso ou cancelado, a exclusivo critério da BUSCASIM, sem prejuízos de outras medidas que sejam aplicáveis, caso em que não serão devidos quaisquer reembolsos.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d2a47d3d-27d7-4ce2-a8a1-46d431b84309",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-8a7dc60b-508b-438f-a40f-0a15b6a387b1",
+            "size": "md",
+            "text": "2.9.1. Ainda, se for constatado dois ou mais cadastros de mesmo USUÁRIO tentando obter acesso contínuo e permanente ao período grátis, será de imediato autorizado a cobrança equivalente ao plano de menor valor em todos cadastros feitos pelo USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-01fdc6df-54e1-4130-84a4-956987185643",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-63291174-1dfa-4bc0-8cad-66357d48946b",
+            "size": "md",
+            "text": "2.10. A senha de acesso à Plataforma assegura ao USUÁRIO o acesso individual à mesma, protegendo o seu cadastro. Desta forma, compete ao USUÁRIO exclusivamente a manutenção de referida senha de maneira confidencial e segura, evitando o acesso indevido às suas informações.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d1639204-1cd7-472f-b176-fc750cbf4f5c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-1411b4d5-a382-4872-8872-0e128c15fdbf",
+            "size": "md",
+            "text": "2.11. Toda e qualquer atividade realizada com o uso da senha será de responsabilidade do USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-bb72a5b8-325f-41d8-a508-1ccb21fb5741",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-e336369e-6ac1-4ed8-8ad2-a0a7eaef1ffb",
+            "size": "md",
+            "text": "2.12. Todos os Serviços da BUSCASIM serão acessados pelo mesmo login e senha do USUÁRIO. Todo USUÁRIO cadastrado declara e garante expressamente ser plenamente capaz, podendo exercer e usufruir livremente da Plataforma e dos serviços.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-2419d4c2-972c-46db-a1d2-7030304f101f",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-1ed42a31-7ebd-4283-b568-ef6b8896f8ba",
+            "size": "md",
+            "text": "2.13. Caberá também ao USUÁRIO assegurar que o seu equipamento seja compatível com as características técnicas que viabilizem a utilização da Plataforma e dos serviços, bem como em relação a quaisquer programas de computador necessários, incluindo conexão à internet em alta velocidade ou banda larga.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-98a6fc9b-b25b-463a-8b89-7f8b71f47418",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-f2cb9ea5-67a2-4ae6-a3fc-6b3534977cf5",
+            "size": "md",
+            "text": "2.14. Ao efetivar o cadastro na Plataforma, o USUÁRIO declara que possui ciência e concorda plenamente com todo o conteúdo deste termo, de forma que, futuramente, não poderão ser alegados quaisquer impedimentos legais para o cumprimento das obrigações assumidas neste documento.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-1919e000-945a-44e6-a145-f6866b261228",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-5c9a8d14-51c0-46a6-a47b-e536e91f1e8b",
+            "size": "md",
+            "text": "2.15. O USUÁRIO ao fornecer as informações necessárias ao seu cadastro e/ou ao uso das ferramentas disponibilizadas pela Plataforma, declara que as informações por ele inseridas são verdadeiras, não prejudicam direito de terceiros, tais como direitos autorais, de imagem, privacidade e ainda não reproduzem conteúdo discriminatório de qualquer natureza.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-c62d04f1-407f-41a4-abcc-2d98de5e8600",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-fde897b7-e2a3-4f70-9adf-437dd5fbe3d7",
+            "size": "md",
+            "text": "2.16. Ao utilizar a Plataforma, o USUÁRIO declara possuir anuência e autorização de terceiros para incluir, durante a utilização da Plataforma, dados pessoais dos mesmos, incluindo dados que possam ser classificados como sensíveis, de acordo com Lei nº 13.709/2018 – Lei Geral de Proteção de Dados. O USUÁRIO ainda declara ciência e concordância em relação à Política de Privacidade da BUSCASIM ao incluir dados de terceiros na Plataforma.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-c7964bcc-289a-4237-a71c-2c7d8c9af758",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-8ddd010b-6ea7-4491-9167-4c2e4ce90cc3",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "3. OBRIGAÇÕES E RESPONSABILIDADES DA BUSCASIM",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-33ba5fb5-dd2a-4f8e-a41b-3130e58717b7",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-573a83ce-9342-450e-864f-18f84e378261",
+            "size": "md",
+            "text": "3.1. A BUSCASIM se obriga a manter a Plataforma em funcionamento durante 24 horas por dia, 07 dias por semana, à exceção das interrupções necessárias para manutenção técnica e/ou indisponibilidade de conexão de responsabilidade da operadora de telecomunicação, caso fortuito ou força maior.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-1b3c20ce-36f0-4c53-8fbf-e32d423800a2",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-fe98a88d-9559-4b69-bc9c-cd8929142837",
+            "size": "md",
+            "text": "3.2. A BUSCASIM deverá manter a privacidade e a confidencialidade dos dados e informações fornecidos pelo USUÁRIO, conforme a Política de Privacidade da BUSCASIM e em conformidade com a Lei nº 13.709/2018 – Lei Geral de Proteção de Dados.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d8352de6-94c3-491f-a433-ad4f7991716b",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-bc5c1616-6576-4175-aacf-554700fb0484",
+            "size": "md",
+            "text": "3.3. A BUSCASIM se compromete a não divulgar, compartilhar, dar acesso a, facilitar o acesso a, alugar ou vender a terceiros, os dados e informações fornecidos pelo USUÁRIO sem o seu consentimento prévio, exceto nos casos expressamente previstos na legislação em vigor e na sua Política de Privacidade.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-007702b0-33e9-4873-8db3-2519034e8266",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-6e4c90a9-e30c-4c1c-b419-50b6b798061d",
+            "size": "md",
+            "text": "3.4. A BUSCASIM não se responsabiliza por quaisquer falhas, interrupções, suspensões ou perdas de informações relativas aos serviços prestados por empresas prestadoras de serviços de telecomunicação e/ou conexão à internet, restando claro que o adequado funcionamento da Plataforma depende da regularidade desses serviços.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-59e156b0-d6b2-41e8-a28f-6279c9a806f6",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-09079415-2b80-4a29-9755-a17b7ae88288",
+            "size": "md",
+            "text": "3.5. A BUSCASIM não se responsabiliza por qualquer falha, interrupção ou erro na transmissão de informações advindas do sistema bancário e/ou dos serviços de pagamento realizados na Plataforma.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-6bef3efc-3b67-4649-8d3d-23af6e5206c5",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-85e7073a-6ac3-47e0-952b-965dfd7fe45b",
+            "size": "md",
+            "text": "3.6. A BUSCASIM poderá, a qualquer tempo, alterar as especificações técnicas e características da Plataforma visando à sua melhoria e/ou aperfeiçoamento.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-8443ff39-4bce-4db2-8a81-64f500f59d5d",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-d856a84b-d016-4d08-a101-7008dc106940",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "4. LIMITAÇÃO DE RESPONSABILIDADE",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-ed2d41d7-bc0f-4804-8e3d-0bad36b66fd0",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-4b8d6527-ed0a-41d1-897e-246cba23fcff",
+            "size": "md",
+            "text": "4.1. A BUSCASIM se exime de quaisquer responsabilidades por eventuais prejuízos, danos e/ou perdas de quaisquer natureza, que possam advir do uso da Plataforma ou dos serviços por ela disponibilizados, bem como em relação a qualquer informação disponibilizada pelo USUÁRIO, seja de forma pública ou privada.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-b2e7b3fb-b4d6-4025-ba86-805e6549e479",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-50a1d540-f487-4e6e-8545-ae39de8eec69",
+            "size": "md",
+            "text": "4.2. A BUSCASIM não se responsabiliza por quaisquer erros, atrasos, falhas, omissões ou interrupções na transmissão de dados decorrentes de falhas nos serviços de telecomunicação e/ou conexão à internet, sendo essas de responsabilidade exclusiva da prestadora de serviço contratada pelo USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-b848e62b-58da-40b6-a911-56550a1a2c20",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-87db8f3c-36c7-4c2a-88db-49511666077f",
+            "size": "md",
+            "text": "4.3. A BUSCASIM não se responsabiliza por quaisquer danos e/ou prejuízos decorrentes da utilização indevida dos serviços da Plataforma, por parte do USUÁRIO ou de terceiros, sendo de responsabilidade exclusiva do USUÁRIO a guarda de seus dados de acesso e a não divulgação a terceiros.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-846c77d9-4188-4d41-9991-3a8abc524c52",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-ec9443c9-6edb-4ad2-a84f-6dfd727c63cf",
+            "size": "md",
+            "text": "4.4. A BUSCASIM não se responsabiliza por quaisquer falhas na Plataforma decorrentes de incompatibilidade técnica dos equipamentos e/ou programas de computador do USUÁRIO.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-66b9b45d-5c88-408d-85b8-b408b27d09c3",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-a4d9ac1b-28a3-4f46-b9dd-242be351aa3a",
+            "size": "md",
+            "text": "4.5. A BUSCASIM não será responsável por quaisquer falhas na Plataforma decorrentes de caso fortuito ou força maior, assim compreendidos na legislação civil brasileira.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-beff53b1-a84c-469f-b65d-7d385066316d",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-4a224a1d-89e7-450c-aa3e-eb2b0d9ad9c6",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "5. DIREITOS DE PROPRIEDADE INTELECTUAL",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d6e8f587-7597-49a0-917e-0376c4a0f63f",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-962983ea-763e-4f41-a969-cba3988b22a9",
+            "size": "md",
+            "text": "5.1. O uso comercial da expressão BUSCASIM como marca, nome empresarial ou nome de domínio, os conteúdos das telas da Plataforma, assim como os programas, bancos de dados, redes e seus arquivos são de propriedade exclusiva da BUSCASIM e estão protegidos pelas leis e tratados internacionais de direito autoral, propriedade industrial e concorrência desleal.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-14a91f64-19cd-4891-923d-f9bcbd1bfd57",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-406e02b6-73b1-4969-8f8a-3b3849a77087",
+            "size": "md",
+            "text": "5.2. Ao acessar a Plataforma, o USUÁRIO declara respeitar todos os direitos de propriedade intelectual e os decorrentes da proteção de marcas registradas da BUSCASIM, bem como todos os direitos referentes a terceiros que porventura estejam, ou estiveram, de alguma forma disponíveis na Plataforma.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-711f1d6e-7046-4aea-b5f6-3b7fb90b057b",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-78ca917c-ca52-428f-8b7f-ecdedf1cbf87",
+            "size": "md",
+            "text": "5.3. É vedado ao USUÁRIO copiar, reproduzir, republicar, atualizar, postar, transmitir ou distribuir, de qualquer forma, o conteúdo do site da BUSCASIM, sem a prévia e expressa autorização da BUSCASIM.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-8db7aad8-fede-4e00-8403-3f0dad9e64f9",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-dc53b427-760a-4d58-855b-b5620d5807a2",
+            "size": "md",
+            "text": "5.4. Não constitui exceção a vedação do item anterior o armazenamento do conteúdo da Plataforma para uso estritamente pessoal e sem qualquer finalidade comercial, hipótese em que permanecerão intactos todos os direitos de propriedade intelectual e de autoria.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-8f9f0315-0b39-4777-b5b6-a55f81e4bc0e",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-ca7f0a7b-a765-4516-99cb-13c5f2ac2f94",
+            "size": "md",
+            "text": "5.5. O uso indevido do conteúdo da Plataforma poderá ensejar a aplicação das penalidades previstas em legislação civil e penal, bem como a responsabilização por eventuais danos causados.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-d7b440d2-9213-4982-8c3f-f93e2bebb9a9",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-7267f3ad-a6a6-4b7f-b955-896735fca86d",
+            "size": "md",
+            "text": "5.6. Não é permitido ao USUÁRIO criar e/ou utilizar quaisquer obras derivadas de qualquer conteúdo disponibilizado na Plataforma, sem a prévia e expressa autorização da BUSCASIM.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-27d5622a-05af-4db4-bf44-94182c4f6be3",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-d278658f-0711-4d7d-a220-0f639d8ce283",
+            "size": "md",
+            "text": "5.7. A BUSCASIM reserva todos os direitos de propriedade intelectual relativos à Plataforma, seja ela tangível ou intangível, incluindo, mas não se limitando a: marcas, patentes, desenhos industriais, domínios, denominações, logotipos, layout, identidade visual, identidade corporativa, sistemas, metodologias, processos, formulações, programas de computador, manuais, informações, relatórios, entre outros.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-5711c56a-94f7-451a-b20c-e8a2365eb50c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "HeadingBlock",
+          "props": {
+            "id": "HeadingBlock-2b155d76-291a-4011-9b3d-54381891e35f",
+            "align": "left",
+            "color": {
+              "hex": "#007bff"
+            },
+            "order": 2,
+            "title": "6. DISPOSIÇÕES GERAIS",
+            "padding": 0,
+            "textWrap": "wrap"
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-2ec5ece4-edf8-4f70-97ff-769ce208584c",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-57b72029-cc2a-4351-8d5a-caf4f272edd6",
+            "size": "md",
+            "text": "6.1. A tolerância quanto ao eventual descumprimento de quaisquer das cláusulas e condições deste documento não constituirá novação das obrigações aqui estipuladas e não impedirá ou inibirá a exigibilidade das mesmas a qualquer tempo.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-f02105ba-d069-401c-a7fc-641fb2b121eb",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-c9017b0a-7c76-4e2c-8327-29bc1486e3b5",
+            "size": "md",
+            "text": "6.2. Caso qualquer disposição destes Termos seja considerada inexequível ou sem efeito, os Termos continuarão em vigor, exceto na parte afetada.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-8e39ef0c-776d-4399-8b17-f8ac2170c882",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-49f0dc03-6069-4e2b-825b-96f52c401557",
+            "size": "md",
+            "text": "6.3. A BUSCASIM poderá, a qualquer tempo, ceder, transferir ou de qualquer outra forma alienar os direitos e obrigações decorrentes destes Termos a qualquer empresa integrante de seu grupo econômico.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-0b7a5eab-3cea-433e-a59e-0c61ca817281",
+            "size": "16px"
+          }
+        },
+        {
+          "type": "Paragraph",
+          "props": {
+            "id": "Paragraph-83ec8367-9d48-429b-aea2-c8edda621db7",
+            "size": "md",
+            "text": "6.4. Em caso de dúvidas sobre o conteúdo destes Termos, o USUÁRIO poderá entrar em contato através do e-mail: juridico@buscasim.com.",
+            "align": "left",
+            "color": {
+              "hex": "#343434"
+            },
+            "weight": 400,
+            "padding": 0
+          }
+        },
+        {
+          "type": "VerticalSpace",
+          "props": {
+            "id": "VerticalSpace-0fc28cec-1812-44c2-8cb7-b0bcaa1b8b36",
+            "size": "56px"
+          }
+        }
+      ]
+    },
+    "content": [
+      {
+        "type": "Block",
+        "props": {
+          "id": "Block-5d28fdf1-a107-487a-b228-128b24d59a53",
+          "background": {
+            "hex": "#0000"
+          }
+        }
+      }
+    ]
+  },
   "results": {
     "root": {
       "props": {

@@ -1,30 +1,51 @@
 .controls {
   display: flex;
   margin-top: var(--mantine-spacing-xl);
+  justify-content: center;
 }
+
 .inputWrapper {
   width: 100%;
-  max-width: rem(500px);
+  max-width: var(--search-size) !important;
   flex: 1;
+  margin-top: 0 !important;
+  label{
+    display: none;
+  }
+  div{
+    margin-top: 0 !important;
+  }
 }
 .input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-right: 0;
+  background: var(--search-bg-color) !important;
+  color: var(--search-text-color) !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: var(--search-radius) !important;
+  border-bottom-left-radius: var(--search-radius) !important;
   height: rem(64px) !important;
   font-size: rem(24px) !important;
   text-transform: uppercase;
   @media (max-width: $mantine-breakpoint-md) {
     height: rem(48px) !important;
     font-size: rem(18px) !important;
-    margin-top: -53px;
+  }
+  &::placeholder{
+    color: var(--search-placeholder-color) !important;
+  }
+  &:focus{
+    border-color: var(--search-detech-color) !important;
   }
 }
+
 .control {
+  background: var(--search-detech-color) !important;
   height: rem(64px) !important;
   font-size: rem(20px) !important;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: var(--search-radius) !important;
+  border-bottom-right-radius: var(--search-radius) !important;
   @media (max-width: $mantine-breakpoint-md) {
     height: rem(48px) !important;
     font-size: rem(18px) !important;

@@ -7,7 +7,6 @@ import {
   ModalProps,
   Stack,
   TextInput,
-  Switch,
 } from '@mantine/core';
 import { useForm, yupResolver } from '@mantine/form';
 import * as Yup from 'yup';
@@ -29,13 +28,6 @@ const schema = Yup.object().shape({
   email: Yup.string()
     .required('Campo Obrigatório')
     .email('Informe um e-mail válido'),
-  orders: Yup.boolean(),
-  coupons: Yup.boolean(),
-  contacts: Yup.boolean(),
-  pages: Yup.boolean(),
-  users: Yup.boolean(),
-  settings: Yup.boolean(),
-  visible_fields: Yup.boolean(),
 });
 
 export function UserModal({ user, ...props }: Props) {
@@ -47,13 +39,6 @@ export function UserModal({ user, ...props }: Props) {
     initialValues: {
       name: '',
       email: '',
-      orders: false,
-      coupons: false,
-      contacts: false,
-      pages: false,
-      users: false,
-      settings: false,
-      visible_fields: false,
     },
   });
 
@@ -78,16 +63,7 @@ export function UserModal({ user, ...props }: Props) {
 
   useEffect(() => {
     if (user) {
-      form.setValues({
-        ...user,
-        orders: user.permissions?.orders || false,
-        coupons: user.permissions?.coupons || false,
-        contacts: user.permissions?.contacts || false,
-        pages: user.permissions?.pages || false,
-        users: user.permissions?.users || false,
-        settings: user.permissions?.settings || false,
-        visible_fields: user.permissions?.visible_fields || false,
-      });
+      form.setValues({ ...user });
     }
   }, [user]);
 
@@ -111,35 +87,6 @@ export function UserModal({ user, ...props }: Props) {
             label="E-mail"
             placeholder="Adicione o e-mail"
             withAsterisk
-          />
-          <Divider />
-          <Switch
-            {...form.getInputProps('orders', { type: 'checkbox' })}
-            label="Pedidos"
-          />
-          <Switch
-            {...form.getInputProps('coupons', { type: 'checkbox' })}
-            label="Cupons"
-          />
-          <Switch
-            {...form.getInputProps('contacts', { type: 'checkbox' })}
-            label="Contatos"
-          />
-          <Switch
-            {...form.getInputProps('pages', { type: 'checkbox' })}
-            label="Páginas"
-          />
-          <Switch
-            {...form.getInputProps('users', { type: 'checkbox' })}
-            label="Usuários"
-          />
-          <Switch
-            {...form.getInputProps('settings', { type: 'checkbox' })}
-            label="Configurações"
-          />
-          <Switch
-            {...form.getInputProps('visible_fields', { type: 'checkbox' })}
-            label="Campos Visíveis"
           />
           <Divider />
           <Group gap="sm" justify="flex-end">

@@ -28,17 +28,18 @@ export default function ThankYouPage(
   }, []);
 
   return (
-    <div className={classes.root}>
-      <Container
-        bg={background? background.hex : ''}
+    <div
+      className={classes.root}
+      style={{background:background? background.hex : ''}}
       >
-        <div className={classes.label}>{title || 'Obrigado!'}</div>
+      <Container>
+        <div className={classes.label}>{title}</div>
         <Title className={classes.title}>
-          {subtitle || 'Parabéns! Você acabou de adquir o seu relatório Premium.'}
+          {subtitle}
         </Title>
         <Group justify="center">
           <Text  size="lg" className={classes.description} style={{ textAlign:'center' }}>
-            {description || 'Você vai poder consultar esse relatório quando quiser no menu Minhas Consultas'}
+            {description}
           </Text>
         </Group>
         {info && (
@@ -48,7 +49,7 @@ export default function ThankYouPage(
         )}
         <Group justify="center">
           <Button component={Link} to="/resultados" variant="primary" size="md">
-          {buttonText || 'Ver meu relatório'}
+          {buttonText}
           </Button>
         </Group>
       </Container>

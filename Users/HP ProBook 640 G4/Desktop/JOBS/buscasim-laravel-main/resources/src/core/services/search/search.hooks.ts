@@ -7,22 +7,22 @@ import { getErrorMessage, showError } from '@/core/utils';
 import searchService from './search.service';
 import { SearchInformation } from '.';
 import { useState } from 'react';
-import { Modal } from '@mantine/core';
 
-export function useSearch() {
+export function useSearch(redirect:any) {
   const navigate = useNavigate();
-  const { setSearchResults } = useSearchResults();
+  const { setSearchResults, premium } = useSearchResults();
   const [noResultsModalOpen, setNoResultsModalOpen] = useState(false);
 
   return useMutation(searchService.search, {
     onSuccess(results) {
       console.log('Resultados recebidos:', results); // Depurar resultados recebidos
       if (!results || !isValidResults(results)) {
-        console.log('Chegou!');
         setNoResultsModalOpen(true);
       } else {
         setSearchResults({ results, order: null, payment: null, premium: false });
-        navigate(`/resultados`);
+        navigate(
+          (premium && redirect[1]) ? redirect[1] : redirect[0] ? redirect[0] : '/resltados'
+        );
       }
     },
     onError(error) {

@@ -9,19 +9,55 @@ import { SearchRequest, useSearch } from '@/core/services/search';
 import { getFormErrors } from '@/core/utils';
 import { MaskedInput } from '@/components/__commons';
 import { SearchLoader } from '..';
+import { SpacerProps } from '@/pages/Private/Pages/Editor/Config/Fields/Spacer';
 
 import classes from './styles.module.css';
+
 
 const schema = Yup.object().shape({
   plate: Yup.string().required('Informe uma placa para consultar'),
 });
 
-interface SearchFormProps{
-  placeholder?: string
+type SearchFormProps = {
+  placeholder?: string,
+  primary_color?: string,
+  seccond_color?: string,
+  text_color?: string,
+  icon_color?: string,
+  placeholder_color?: string,
+  radius?:number,
+  size?:number,
+  paddings?: SpacerProps;
+  margins?: SpacerProps;
+  result_page?: string[];
+  align?: "left" | "center" | "right";
 }
 
-export function SearchForm({ placeholder }:SearchFormProps) {
-  const mutation = useSearch();
+interface CustomCSSProperties extends React.CSSProperties {
+  '--search-bg-color'?: string;
+  '--search-radius'?: string;
+  '--search-size'?: string;
+  '--search-placeholder-color'?: string;
+  '--search-detech-color'?: string;
+  '--search-text-color'?: string;
+}
+
+
+export function SearchForm({
+  placeholder,
+  primary_color ,
+  seccond_color ,
+  text_color ,
+  icon_color ,
+  placeholder_color,
+  radius,
+  size,
+  paddings,
+  margins,
+  result_page,
+  align
+}:SearchFormProps) {
+  const mutation = useSearch(result_page);
   const [noResultsModalOpen, setNoResultsModalOpen] = useState(false);
   const form = useForm<SearchRequest>({
     validate: yupResolver(schema),
@@ -42,15 +78,37 @@ export function SearchForm({ placeholder }:SearchFormProps) {
     window.location.href = '/contato';
   };
 
+  const SearchStyles: CustomCSSProperties = {
+    '--search-bg-color': primary_color,
+    '--search-radius': `${radius}px`,
+    '--search-size': `${size}%`,
+    '--search-placeholder-color': placeholder_color,
+    '--search-detech-color': seccond_color,
+    '--search-text-color': text_color,
+    paddingLeft:`${paddings?.left}px`,
+    paddingRight:`${paddings?.right}px`,
+    paddingTop: `${paddings?.top}px`,
+    paddingBottom: `${paddings?.bottom}px`,
+    marginLeft:`${margins?.left}px`,
+    marginRight:`${margins?.right}px`,
+    marginTop: `${margins?.top}px`,
+    marginBottom: `${margins?.bottom}px`,
+    justifyContent:`${align}`
+  };
+
   return (
     <>
-      <form onSubmit={form.onSubmit(handleSearch)} className={classes.controls}>
+       <form
+          onSubmit={form.onSubmit(handleSearch)}
+          className={classes.controls}
+          style={SearchStyles}
+        >
         <MaskedInput
           {...form.getInputProps('plate')}
           mask="plate"
           name="plate"
           autoComplete="on"
-          placeholder={placeholder|| "Ex: EPX3E00"}
+          placeholder={placeholder}
           classNames={{ input: classes.input, root: classes.inputWrapper }}
         />
         <Button
@@ -58,7 +116,9 @@ export function SearchForm({ placeholder }:SearchFormProps) {
           className={classes.control}
           loading={mutation.isLoading}
         >
-          <IconSearch />
+          <IconSearch
+            style={{color:icon_color}}
+          />
         </Button>
       </form>
       <SearchLoader loading={mutation.isLoading} />

@@ -19,6 +19,7 @@ class UsersController extends Controller
    * List all the users.
    */
   public function index(Request $request)
+
 {
     $query = User::with('permissions'); // Remova o filtro que exclui o usuário autenticado
 
@@ -36,8 +37,7 @@ class UsersController extends Controller
 
     return response()->json($query->paginate(30), 200);
 }
-
-
+  
 
   /**
    * Create a new user.
@@ -55,6 +55,7 @@ class UsersController extends Controller
     }
 
     $user = User::create($request->only('name', 'email', 'is_active'));
+
 
     $permissions = [
       'orders' => $request['orders'] === true ? 1 : 0,

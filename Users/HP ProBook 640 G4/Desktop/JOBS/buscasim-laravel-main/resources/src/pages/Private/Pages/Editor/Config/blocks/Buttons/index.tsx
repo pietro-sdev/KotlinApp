@@ -3,19 +3,18 @@ import { ComponentConfig } from "@measured/puck";
 import { Button } from '@mantine/core';
 import { Link } from 'react-router-dom';
 import styles from "./styles.module.css";
-import { Section } from "../../components/Section";
 import { Color } from "../../Fields/Color";
 
 export type ButtonGroupProps = {
   align?: string;
-  buttons: { 
-    label: string; 
-    href: string; 
+  buttons: {
+    label: string;
+    href: string;
     color: any;
-    variant: "default" | "filled" | "light" | "outline" | "subtle" | "transparent" }[];
+    variant: "default" | "filled" | "light" | "outline" | "subtle" | "transparent"
+    size: "compact-lg" | "compact-md" | "compact-sm" | "compact-xl" | "compact-xs" | "lg" | "md" | "sm" | "xl" | "xs"
+  }[];
 };
-
-
 
 
 export const ButtonGroup: ComponentConfig<ButtonGroupProps> = {
@@ -23,19 +22,34 @@ export const ButtonGroup: ComponentConfig<ButtonGroupProps> = {
   fields: {
     buttons: {
       type: "array",
-      getItemSummary: (item) => item.label || "Button",
+      getItemSummary: (item) => item.label || "Botão",
       arrayFields: {
         label: { type: "text" },
         href: { type: "text" },
         variant: {
           type: "select",
           options: [
-            { label: "default", value: "default" },
-            { label: "filled", value: "filled" },
-            { label: "light", value: "light" },
-            { label: "outline", value: "outline" },
-            { label: "subtle", value: "subtle" },
-            { label: "transparent", value: "transparent" },
+            { label: "padrão", value: "default" },
+            { label: "preenchido", value: "filled" },
+            { label: "leve", value: "light" },
+            { label: "contorno", value: "outline" },
+            { label: "sutil", value: "subtle" },
+            { label: "transparente", value: "transparent" },
+          ],
+        },
+        size: {
+          type: "select",
+          options: [
+            { label: "compacto-extra pequeno", value: "compact-xs" },
+            { label: "compacto-pequeno", value: "compact-sm" },
+            { label: "compacto-médio", value: "compact-md" },
+            { label: "compacto-grande", value: "compact-lg" },
+            { label: "compacto-extra grande", value: "compact-xl" },
+            { label: "extra pequeno", value: "xs" },
+            { label: "pequeno", value: "sm" },
+            { label: "médio", value: "md" },
+            { label: "grande", value: "lg" },
+            { label: "extra grande", value: "xl" },
           ],
         },
         color:{
@@ -44,37 +58,53 @@ export const ButtonGroup: ComponentConfig<ButtonGroupProps> = {
             <Color label="Background" name={name} value={value} onChange={onChange}/>
           ),
         }
-      }
+      },
+      defaultItemProps: {
+        label: "Learn more",
+        href: "#",
+        variant: "light" ,
+        color:{hex : '#228be6'},
+        size:'md'
+      },
     },
     align: {
       type: "radio",
       options: [
-        { label: "left", value: "left" },
+        { label: "left", value: "initial" },
         { label: "center", value: "center" },
+        { label: "right", value: "right" },
       ],
     },
   },
   defaultProps: {
-    buttons: [{ label: "Learn more", href: "#", variant: "light" , color:{hex : '#228be6'} }],
+    align: "initial",
+    buttons: [{
+      label: "Learn more",
+      href: "#",
+      variant: "light" ,
+      color:{hex : '#228be6'},
+      size:'md'
+    }],
   },
   render: ({ align, buttons }) => {
     return (
-      <Section className={align === 'center'? 'button-group-center' : 'button-group'}>
-        <div className={styles['button-group-actions']}>
+        <div
+          className={styles['button-group-actions']}
+          style={{justifyContent:align}}
+        >
           {buttons.map((button, i) => (
             <Button
               key={i}
               component={Link}
-              variant={button.variant}
-              color={button.color['hex']}
-              size="large"
-              to={button.href}
-            >
-              {button.label}
+              variant={button.variant || 'light'}
+              color={button.color.hex || '#0000'}
+              size={button.size || 'md'}
+              to={button.href || '#'}
+              >
+              {button.label || 'Learn more'}
             </Button>
           ))}
         </div>
-      </Section>
     );
   },
 };

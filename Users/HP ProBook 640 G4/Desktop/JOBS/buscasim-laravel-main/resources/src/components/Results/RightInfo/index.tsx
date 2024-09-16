@@ -104,7 +104,6 @@ export function ResultsRightInfo({ data, premium, onScroll }: Props) {
           <Table.Th>Placa Alternativa</Table.Th>
           <Table.Td>{renderField('placa_alternativa', placa_alternativa)}</Table.Td>
         </Table.Tr>
-
         <Table.Tr>
           <Table.Th>Nome do proprietário</Table.Th>
           <Table.Td>{renderField('pronome', nome)}</Table.Td>
@@ -114,8 +113,9 @@ export function ResultsRightInfo({ data, premium, onScroll }: Props) {
           <Table.Td>{renderField('endereco_proprietario', endereco_proprietario)}</Table.Td>
         </Table.Tr>
         <Table.Tr>
-          <Table.Th>Documento do proprietário</Table.Th>
+          <Table.Th>Documento do proprietário.</Table.Th>
           <Table.Td>{renderField('doc_proprietario', doc_proprietario)}</Table.Td>
+
         </Table.Tr>
         <Table.Tr>
           <Table.Th>Telefone do proprietário</Table.Th>
@@ -209,7 +209,6 @@ export function ResultsRightInfo({ data, premium, onScroll }: Props) {
           <Table.Th>Outras Restrições 04</Table.Th>
           <Table.Td>{renderField('outras_restricoes_04', outras_restricoes_04)}</Table.Td>
         </Table.Tr>
-
       </Table.Tbody>
     </Table>
   );

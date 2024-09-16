@@ -32,12 +32,12 @@ export const Table: ComponentConfig<TableProps> = {
                 }
             }
         },
-        Striped: { 
+        Striped: {
             type: "radio",
             options: [
                 { label: "even", value: "even" },
                 { label: "odd", value: "odd" },
-                { label: "nenhum", value: false },   
+                { label: "nenhum", value: false },
             ],
         },
         HighlightOnHover: {
@@ -79,7 +79,7 @@ export const Table: ComponentConfig<TableProps> = {
             { row: "56, 137.33, Ba, Barium"},
             { row: "58, 140.12, Ce, Cerium"},
         ]
-        
+
     },
     render: ({ Striped, HighlightOnHover, WithTableBorder, WithColumnBorders, WithRowBorders , head , caption , body }) => {
         const Data = {

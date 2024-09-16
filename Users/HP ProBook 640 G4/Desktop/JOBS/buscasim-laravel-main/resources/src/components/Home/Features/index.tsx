@@ -1,21 +1,31 @@
 import { Text, Title, Container, SimpleGrid } from '@mantine/core';
-import { IconCarSuv, IconTable, IconUserDollar } from '@tabler/icons-react';
 import { Feature } from './feature';
 import classes from './styles.module.css';
 
-export function Features() {
+
+export type FeaturesProprs = {
+  title?: string;
+  description?: string;
+  features: {
+    icon: any;
+    title: string;
+    description: string;
+  }[];
+}
+
+export function Features({title , description ,  features }:FeaturesProprs) {
   return (
     <Container className={classes.wrapper}>
       <Title className={classes.title}>
-        Saiba todas as informações importantes sobre o veículo
+        {title}
       </Title>
 
       <Container size={560} p={0}>
         <Text size="sm" className={classes.description}>
-          Obtenha um relatório detalhado com a marca, modelo, ano, valor de
-          mercado entre outras informações relevantes.
+          {description}
         </Text>
       </Container>
+      <br />
 
       <SimpleGrid
         mt={60}
@@ -31,21 +41,21 @@ export function Features() {
   );
 }
 
-export const features = [
+export const DefautFeatures = [
   {
-    icon: IconCarSuv,
+    icon: 'IconCarSuv',
     title: 'Informações do veículo',
     description:
       'Consiga informações sobre a cor, modelo, categoria e muito mais sobre o veículo.',
   },
   {
-    icon: IconTable,
+    icon: 'IconTable',
     title: 'Tabela FIPE',
     description:
       'Utilize as informações da tabela FIPE para consultar o valor de mercado do veículo.',
   },
   {
-    icon: IconUserDollar,
+    icon: 'IconUserDollar',
     title: 'Situação Financeira',
     description:
       'Consulte a situação financeira do veículo para tomar a melhor decisão.',

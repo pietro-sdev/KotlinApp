@@ -1,5 +1,4 @@
-import { Container, Group, Image, TextInput, Button, Text } from '@mantine/core';
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Container, Group, Image } from '@mantine/core';
 
 import { AnchorLink } from '@/components/__commons';
 import classes from './styles.module.css';
@@ -10,16 +9,10 @@ const links = [
   { link: '/termos-de-uso', label: 'Termos de uso' },
   { link: '/perguntas-frequentes', label: 'Perguntas frequentes' },
   { link: '/contato', label: 'Contato' },
-  { link: '/parceiros', label: 'Parceiros' }, // Novo link para Parceiros
-];
-
-const socialLinks = [
-  { link: 'https://instagram.com', icon: FaInstagram },
-  { link: 'https://linkedin.com', icon: FaLinkedin },
 ];
 
 export function PublicFooter() {
-  const linkItems = links.map((link) => (
+  const items = links.map((link) => (
     <AnchorLink
       key={link.link}
       href={link.link}
@@ -30,27 +23,13 @@ export function PublicFooter() {
     </AnchorLink>
   ));
 
-  const socialItems = socialLinks.map((social) => (
-    <AnchorLink
-      key={social.link}
-      href={social.link}
-      className={classes.socialLink}
-      target="_blank"
-    >
-      <social.icon size={20} />
-    </AnchorLink>
-  ));
-
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
-        <div className={classes.logoAndSocial}>
-          <AnchorLink href="/">
-            <Image src={logo} width={100} height={48} />
-          </AnchorLink>
-          <Group className={classes.socialLinks}>{socialItems}</Group>
-        </div>
-        <Group className={classes.links}>{linkItems}</Group>
+        <AnchorLink href="/">
+          <Image src={logo} width={100} height={48} />
+        </AnchorLink>
+        <Group className={classes.links}>{items}</Group>
       </Container>
     </div>
   );

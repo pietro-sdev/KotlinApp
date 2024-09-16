@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { ComponentConfig } from "@measured/puck";
 import styles from "./styles.module.css";
-import { IconsOptions , GetIconsByName as _icon } from '../../Fields/Icons'
+import { IconSearch , GetIconsByName as _icon } from '../../Fields/Icons'
 
 
 export type CardProps = {
@@ -17,8 +17,10 @@ export const Card: ComponentConfig<CardProps> = {
     title: { type: "text" },
     description: { type: "textarea" },
     icon: {
-      type: "select",
-      options: IconsOptions,
+      type: 'custom',
+      render: ({ value , onChange }:any) => (
+          <IconSearch _value_={value} onChange={onChange}/>
+        ),
     },
     mode: {
       type: "radio",
@@ -29,9 +31,9 @@ export const Card: ComponentConfig<CardProps> = {
     },
   },
   defaultProps: {
-    title: "Title",
-    description: "Description",
-    icon: "facebook",
+    title: "Informações do veículo",
+    description: "Consiga informações sobre a cor, modelo, categoria e muito mais sobre o veículo.",
+    icon: "IconCarSuv",
     mode: "flat",
   },
   render: ({ title, description, icon , mode }) => {

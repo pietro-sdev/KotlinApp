@@ -17,13 +17,32 @@ import {
 import { useSearchResults } from '@/core/providers';
 import { useSearchInfo } from '@/core/services/search';
 import { gaPageView, moneyFormat } from '@/core/utils';
+import mockResults from '../../../../json/premium_response.json';
 
 import classes from './styles.module.css';
 import placeholder from '@/assets/placeholder.png';
 import axios from 'axios';
 
-export default function ResultsPage() {
-  const { results, premium } = useSearchResults();
+
+export type ResultsProps = {
+  title?:string,
+  cta?: string,
+  boxTitle?: string,
+  boxDescription?: string,
+  boxCTA?: string,
+  [key: string]: any;
+}
+
+
+export default function ResultsPage({
+  title,
+  cta,
+  boxTitle,
+  boxDescription,
+  boxCTA,
+  editMode
+}:ResultsProps){
+  var { results, premium } = useSearchResults();
   const { data, isLoading } = useSearchInfo();
   const { scrollIntoView, targetRef } = useScrollIntoView<HTMLDivElement>({
     offset: 60,
@@ -32,7 +51,9 @@ export default function ResultsPage() {
   const [logo, setLogo] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!results) navigate('/');
+
+    if (!results && !editMode) navigate('/');
+
 
     if (results && !premium) {
       gaPageView('Resultados Free');
@@ -50,14 +71,19 @@ export default function ResultsPage() {
     fetchLogo();
   }, [results]);
 
+
+  if (!results && editMode){
+    results = {
+      ...mockResults
+    }
+  }
+
   if (!results) return <PageLoader />;
 
   const uniformResults = {
     ...results,
     dados: Object.keys(results.dados || {}).length > 0 ? results.dados : results // Garantir que a propriedade 'dados' sempre contenha os dados corretos
   };
-
-  console.log(data);
 
   const handlePrint = () => {
     window.print();
@@ -73,7 +99,7 @@ export default function ResultsPage() {
             variant="gradient"
             gradient={{ from: 'blue.5', to: 'blue.9' }}
           >
-            Resultado da consulta
+            {title}
           </Text>
         </Title>
 
@@ -129,7 +155,7 @@ export default function ResultsPage() {
                 size="lg"
                 onClick={() => scrollIntoView()}
               >
-                Liberar Informações
+                {cta}
               </Button>
             </Grid.Col>
           )}
@@ -150,11 +176,10 @@ export default function ResultsPage() {
             <Stack align="center">
               <IconLockOpen size={48} />
               <Title order={3} ta="center">
-                Quer saber todas as informações que estão bloqueadas?
+              {boxTitle}
               </Title>
               <Text ta="center">
-                Adquira o relatório Premium e tenha acesso a essa e outras
-                informações por apenas
+                {boxDescription}
               </Text>
               <div className={classes.searchPrice}>
                 {moneyFormat(data?.price || 0)}
@@ -167,7 +192,7 @@ export default function ResultsPage() {
                 color="white"
                 size="lg"
               >
-                Liberar Informações
+                {boxCTA}
               </Button>
             </Stack>
           </Container>

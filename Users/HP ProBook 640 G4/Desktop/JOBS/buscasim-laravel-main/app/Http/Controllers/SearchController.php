@@ -47,7 +47,7 @@ class SearchController extends Controller
 
         // Make an API request to get free vehicles information.
         $response = Http::post('https://api-v2.anycar.com.br/integracao/consultar', [
-            'apiKey' => env('API_KEY_ANYCAR'),
+            'apiKey' => (string) $this->getOption('API_ANYCAR_KEY', ''),
             'tipo' => 'agregados-propria',
             'placa' => $plate,
         ]);

@@ -9,6 +9,7 @@ import {
   GoogleAdsForm,
   MercadoPagoForm,
   PriceForm,
+  AnyCar,
 } from '@/components/Settings';
 import {
   OptionsRequest,
@@ -58,6 +59,7 @@ export default function SettingsPage() {
               <PriceForm form={form} />
               <MercadoPagoForm form={form} />
               <GoogleAdsForm form={form} />
+              <AnyCar form={form} />
             </Stack>
           </Grid.Col>
         </Grid>

@@ -54,9 +54,6 @@ export default function CheckoutPage() {
   const mutation = useProcessPayment();
   const navigate = useNavigate();
 
-
-
-
   const form = useForm<ProcessPaymentRequest>({
     initialValues: {
       name: user ? user.name : '',
@@ -76,12 +73,10 @@ export default function CheckoutPage() {
     try {
       const { DEV } = import.meta.env;
 
-
       const { payment_id } = await mutation.mutateAsync({
         ...values,
         plate: results?.dados?.placa || '',
         coupon_id: discount?.coupon_id || null,
-
       });
 
       const thankYouPageState = {
