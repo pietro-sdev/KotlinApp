@@ -5,25 +5,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.material.Button
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Switch
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
+import androidx.compose.material.*
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.TextFieldValue
@@ -37,7 +22,7 @@ class SettingsActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            var isDarkTheme by rememberSaveable { mutableStateOf(viewModel.isDarkTheme) }
+            var isDarkTheme by remember { mutableStateOf(viewModel.isDarkTheme) }
 
             Project1882Theme(darkTheme = isDarkTheme) {
                 SettingsScreen(
@@ -73,7 +58,7 @@ fun SettingsScreen(
     ) {
         Text(text = "Configurações", style = MaterialTheme.typography.h4, modifier = Modifier.padding(bottom = 16.dp))
 
-        // User Name Setting
+        // Configuração do Nome de Usuário
         Text(text = "Nome de Usuário", style = MaterialTheme.typography.h6)
         BasicTextField(
             value = userName,
@@ -88,12 +73,12 @@ fun SettingsScreen(
                 .padding(16.dp)
         )
 
-        // Dark Theme Setting
+        // Configuração de Tema Escuro
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(vertical = 8.dp)
         ) {
-            Text(text = "Dark Theme", style = MaterialTheme.typography.h6)
+            Text(text = "Tema Escuro", style = MaterialTheme.typography.h6)
             Spacer(modifier = Modifier.weight(1f))
             Switch(
                 checked = isDarkTheme,
@@ -105,7 +90,7 @@ fun SettingsScreen(
             )
         }
 
-        // Notifications Setting
+        // Configuração de Notificações
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(vertical = 8.dp)
@@ -121,11 +106,11 @@ fun SettingsScreen(
             )
         }
 
-        // Save Button
+        // Botão Salvar
         Spacer(modifier = Modifier.height(24.dp))
         Button(
             onClick = {
-                // Save action or additional logic here
+                // Ação de salvar ou lógica adicional aqui
             },
             modifier = Modifier.align(Alignment.End)
         ) {
@@ -133,4 +118,6 @@ fun SettingsScreen(
         }
     }
 }
+
+
 

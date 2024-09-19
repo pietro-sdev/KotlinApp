@@ -225,7 +225,7 @@ fun CalendarGrid(currentMonth: YearMonth, selectedDate: LocalDate, appointments:
             Row(modifier = Modifier.fillMaxWidth()) {
                 week.forEach { day ->
                     val date = LocalDate.of(currentMonth.year, currentMonth.monthValue, day)
-                    val appointment = appointments.find { it.date == date }
+                    val appointment = appointments.find { LocalDate.parse(it.date) == date } // Parse string to LocalDate
                     CalendarDay(day = day, isSelected = date == selectedDate, appointment = appointment)
                 }
                 // Fill remaining columns in the row if less than 7 days
